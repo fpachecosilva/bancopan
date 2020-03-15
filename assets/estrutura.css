@@ -1,0 +1,81 @@
+
+/* clean CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}table {border-collapse: collapse;border-spacing: 0;}
+
+html {background: #FFFFFF url('../images/loading.svg') no-repeat center; width: 100%; height: 100%; min-height: 100%; overflow-x: hidden;}
+body {display: none; font-family: 'Montserrat', sans-serif; box-sizing: border-box; background: #FFFFFF; font-size: 16px; height: 100%; min-height: 100% !important;}
+
+/* Variaveis: */
+	:root {
+		--principal: #FFFFFF;
+        --secundaria: #EDEDED;
+        --destaqueazul: #00C5FF;
+        --destaquelaranja: #FF5630;
+        --auxiliarcinza: #616161;
+        --auxiliarcinzaescuro: #414141;
+
+		--margin: 30px;
+		--tempo: 400ms;
+		--radius: 5px;
+	}
+/* Variaveis: */
+
+/* Seleção: */
+	::selection {background: var(--principal); color:#FFF; text-shadow: 0px 2px 1px rgba(0,0,0,0.2);}
+	::-webkit-selection {background: var(--principal); color:#FFF; text-shadow: 0px 2px 1px rgba(0,0,0,0.2);}
+	::-moz-selection {background: var(--principal); color:#FFF; text-shadow: 0px 2px 1px rgba(0,0,0,0.2);}
+/* Seleção: */
+
+/* Efeitos de transição: */
+	a {-webkit-transition: all var(--tempo); -moz-transition: all var(--tempo); -ms-transition: all var(--tempo); -o-transition: all var(--tempo); transition: all var(--tempo);}
+/* :Efeitos de transição */
+
+/* Animações: */
+	@-webkit-keyframes float { from, to {transform: translate3d(0, 0, 0);} 50% {transform: translate3d(0, -20px, 0);}}
+	@keyframes float { from, to {transform: translate3d(0, 0, 0);} 50% {transform: translate3d(0, -20px, 0);}}
+/* :Animações */
+
+/* Elementos: */
+	h1, h2 {display: block; font-weight: 700; clear: both;}
+	h1 {font-size: 4rem; line-height: 4.3rem;}
+	h2 {font-size: 2rem; line-height: 2.2rem;}
+	h3 {}
+	h4 {}
+	i {display: inline-block;}
+	p {font-size: 1rem; line-height: 1.3rem;}
+	strong {font-weight: 700;}
+	br {clear: both; display: block;}
+	a {color: var(--principal); text-decoration: none;}
+	img {display: block; outline: none;}
+	section {position: relative;}
+	article {position: relative; width: 100%; box-sizing: border-box;}
+	article:after {content: ''; display: block; clear: both;}
+/* :Elementos */
+	
+/* Botões: */
+	.Btn {display: block; max-width: 300px; position: relative; box-sizing: border-box; border-radius: var(--radius); cursor: pointer; margin: 10px auto; text-align: center; box-shadow: 2 2 4px rgba(0, 0, 0, 0.1);}
+	.Btn span {position: relative; padding-right: 20px;}
+	.Btn span i {position: absolute; right: -5px; top: 3px;}
+/* :Botões */
+
+/* Backgrounds: */
+	.fullscreen-bg {width: 100%; height: 100%; background: no-repeat center center; background-size: cover;}
+/* :Backgrounds */
+	
+/* Header: */
+	header {}
+	header:before {content: ''; position: absolute; top: 0; width: 100%; height: 200px; background: linear-gradient(#000, transparent); opacity: 0.4; z-index: 9; pointer-events: none; user-select: none;}
+	header article {position: relative; z-index: 10; padding: 0;}
+	header a {font-size: 1.1rem;}
+/* :Header */
+
+/* Footer: */
+	footer {text-align: center;}
+		footer a {display: block; font-size: 30px; margin-bottom: 10px;}
+	#Copyright {display: block; width: 100%; color: #CCC; background-color: #333;}
+/* :Footer */
+
+/* Página Home: */
+	.Home {}
+		.HomeSite {width: 100%; max-width: 300px; margin: 0 auto; display: block;}
+/* :Página Home */
