@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Bison';
+    src: url('font/Bison-Regular.woff2') format('woff2'),
+        url('font/Bison-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bison';
+    src: url('font/Bison-LightItalic.woff2') format('woff2'),
+        url('font/Bison-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bison';
+    src: url('font/Bison-RegularItalic.woff2') format('woff2'),
+        url('font/Bison-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bison';
+    src: url('font/Bison-Bold.woff2') format('woff2'),
+        url('font/Bison-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bison ThickOutline';
+    src: url('font/Bison-ThinOutlineItallic.woff2') format('woff2'),
+        url('font/Bison-ThinOutlineItallic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bison';
+    src: url('font/Bison-DemiBoldItallic.woff2') format('woff2'),
+        url('font/Bison-DemiBoldItallic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bison ThinOutline';
+    src: url('font/Bison-ThickOutlineItallic.woff2') format('woff2'),
+        url('font/Bison-ThickOutlineItallic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bison';
+    src: url('font/Bison-Light.woff2') format('woff2'),
+        url('font/Bison-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bison';
+    src: url('font/Bison-DemiBold.woff2') format('woff2'),
+        url('font/Bison-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bison ThickOutline';
+    src: url('font/Bison-ThickOutline.woff2') format('woff2'),
+        url('font/Bison-ThickOutline.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bison ThinOutline';
+    src: url('font/Bison-ThinOutline.woff2') format('woff2'),
+        url('font/Bison-ThinOutline.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bison';
+    src: url('font/Bison-BoldItallic.woff2') format('woff2'),
+        url('font/Bison-BoldItallic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-SemiBold.woff2') format('woff2'),
+        url('font/Brasley-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-Light.woff2') format('woff2'),
+        url('font/Brasley-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-Thin.woff2') format('woff2'),
+        url('font/Brasley-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-Medium.woff2') format('woff2'),
+        url('font/Brasley-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-Regular.woff2') format('woff2'),
+        url('font/Brasley-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-LightItalic.woff2') format('woff2'),
+        url('font/Brasley-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-Bold.woff2') format('woff2'),
+        url('font/Brasley-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-BoldItalic.woff2') format('woff2'),
+        url('font/Brasley-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-SemiBoldItalic.woff2') format('woff2'),
+        url('font/Brasley-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-MediumItalic.woff2') format('woff2'),
+        url('font/Brasley-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-ThinItalic.woff2') format('woff2'),
+        url('font/Brasley-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brasley';
+    src: url('font/Brasley-RegularItalic.woff2') format('woff2'),
+        url('font/Brasley-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
