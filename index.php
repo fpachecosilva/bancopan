@@ -19,7 +19,7 @@
 	</head>
 	<body class="Home">
         <h1>PRAZER,<br>SOMOS<br>BANCO PAN</h1>
-        
+        test
 		<?php include 'assets/footer.php'; ?>
 	</body>
 	
