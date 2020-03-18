@@ -18,6 +18,7 @@
 
 	</head>
 	<body class="Home">
+<<<<<<< HEAD
 		<section class="PrimeiraSessaoHome fullscreen-bg">
 			<img class="Logo" src="<? echo $images ?>Home_PrimeiraSessao_Logo.png" />
 			<div class="div-esq">
@@ -33,6 +34,10 @@
 			</div>
 		</section>
         
+=======
+        <h1>PRAZER,<br>SOMOS<br>BANCO PAN</h1>
+        test
+>>>>>>> be1ab883f0f33515f35bb9cc46019b1d9c3d27a0
 		<?php include 'assets/footer.php'; ?>
 	</body>
 	
