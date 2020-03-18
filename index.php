@@ -18,7 +18,20 @@
 
 	</head>
 	<body class="Home">
-        <h1>PRAZER,<br>SOMOS<br>BANCO PAN</h1>
+		<section class="PrimeiraSessaoHome fullscreen-bg">
+			<img class="Logo" src="<? echo $images ?>Home_PrimeiraSessao_Logo.png" />
+			<div class="div-esq">
+				<h1>PRAZER,<br>SOMOS<br>BANCO PAN</h1>
+				<p>
+					Um banco que dá crédito e acesso à informação com tecnologia para você<br>
+					transformar desafios em conquistas.
+				</p>
+			</div>
+			<div class="div-dir">
+				<div class="quadrado"></div>
+				<div class="triangulo"></div>
+			</div>
+		</section>
         
 		<?php include 'assets/footer.php'; ?>
 	</body>

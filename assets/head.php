@@ -28,7 +28,7 @@
 		<meta property="og:image:type" content="image/jpeg" />
 		<meta property="og:image:width" content="470" />
 		<meta property="og:image:height" content="276" />
-		<meta property="fb:app_id" content="458490640887690" />
+		<meta property="fb:app_id" content="" />
 		<meta name="twitter:card" content="summary">
 		<meta name="format-detection" content="telephone=yes"/>
 		<link href="<? echo $images ?>favicon.png" rel="icon" type="image/x-icon" />
