@@ -29,7 +29,8 @@
 			</div>
 			<div class="div-dir">
 				<div class="quadrado"></div>
-				<div class="triangulo"></div>
+				<div class="triangulobaixo"></div>
+				<div class="triangulocima"></div>
 			</div>
 		</section>
         
