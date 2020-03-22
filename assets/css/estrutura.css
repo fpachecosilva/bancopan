@@ -23,6 +23,13 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	a, span, nav, header, header, .slick-dots li button:before {-webkit-transition: all var(--tempo); -moz-transition: all var(--tempo); -ms-transition: all var(--tempo); -o-transition: all var(--tempo); transition: all var(--tempo);}
 /* :Efeitos de transição */
 
+/* Animações */
+	@keyframes rotacionar { from {transform: rotate(0);} to {transform: rotate(360deg);} }
+	@keyframes left-right { from {transform: scaleX(0);} to {transform: scaleX(1);} }
+	@keyframes left-right-corner { from {transform: scale(0);} to {transform: scale(500deg);} }
+	@keyframes opacity { 0% {opacity: 1;} 70% {opacity: 0;} 100% {opacity: 1;} }
+/* :Animações */
+
 /* Elementos: */
 	h1, h2, h3, h4, h5 {}
 
@@ -36,7 +43,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	a {text-decoration: none;}
 	img {display: block; outline: none;}
 	section {position: relative; box-sizing: border-box; }
-	article {position: relative; width: 100%; box-sizing: border-box;}
+	article {position: relative; max-width: 1280px; box-sizing: border-box; margin: auto;}
 	article:after {content: ''; display: block; clear: both;}
 /* :Elementos */
 
@@ -57,22 +64,25 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 /* :Slick */
 
 /* Página Home: */
-	.Home {  }
+	/* PrimeiraSessaoHome: */	
+		.PrimeiraSessaoHome { background-image: url('../images/bg principal.png'); padding: var(--margin); background-position-x: -100px; overflow: hidden; }
+		.PrimeiraSessaoHome .Logo { position: relative; top: 0; left: 0; }
+		.PrimeiraSessaoHome .div-esq { position: absolute; bottom: 106px }	
+		.PrimeiraSessaoHome h1 { font-size: 65px; font-weight: bold; color: var(--azul); line-height: 63px; z-index: 10; position: relative; animation-name: opacity; animation-duration: 0.75s; }
+		.PrimeiraSessaoHome p { color: var(--principal); margin-top: 70px; font-size: 18px; line-height: 22px; z-index: 10; position: relative; }
+		.PrimeiraSessaoHome .div-dir { position: absolute; right: 0; top: 0; height: 100vh; }
+		.PrimeiraSessaoHome .div-dir .quadrado { width: 85px; height: 85px; display: block; background: var(--laranja); top: 324px; right: 200px; position: relative; z-index: 10; animation-duration: 0.7s; animation-name: rotacionar; }
+		.PrimeiraSessaoHome .div-dir .triangulobaixo { transform-origin: bottom left; width: 0px; height: 135px; border-left: 583px solid transparent; border-right: 538px solid transparent; border-bottom: 590px solid #707070; position: absolute; top: 212px; right: -315px; animation-name: left-right-corner; animation-duration: 0.7s; }
+		.PrimeiraSessaoHome .div-dir .triangulocima { transform-origin: left; width: 81px; height: 0; border-left: 695px solid transparent; border-top: 703px solid #414141; position: absolute; top: 0; right: -171px; animation-name: left-right; animation-duration: 0.4s;}
+		.PrimeiraSessaoHome::before { position: absolute; bottom: 17px; padding-left: 30px; display: flex; align-items: center; width: 55px; height: 35px; left: 50%; right: 50%; z-index: 20; color: var(--principal); content: 'ver mais'; background-image: url(../images/vermais.png); background-repeat: no-repeat; font-size: 10px; }	
+	/* :PrimeiraSessaoHome */
+		
+	/* SegundaSessaoHome: */
+		.SegundaSessaoHome article { padding-left: var(--margin); padding-right: var(--margin); padding-top: 105px; }	
+		.SegundaSessaoHome h2 { color: var(--cinzaescuro); font-size: 44px; font-weight: bolder; line-height: 49px; text-transform: uppercase; }
+	/* :SegundaSessaoHome: */		
+
 /* :Página Home */
 
-/* PrimeiraSessaoHome: */
-	.PrimeiraSessaoHome { background-image: url('../images/bg principal.png'); padding: var(--margin); background-position-x: -100px; overflow: hidden; }
-	.PrimeiraSessaoHome .Logo { position: relative; top: 0; left: 0; }
-	.PrimeiraSessaoHome .div-esq { position: absolute; bottom: 106px }	
-	.PrimeiraSessaoHome h1 { font-size: 65px; font-weight: bold; color: var(--azul); line-height: 63px; z-index: 10; position: relative; }
-	.PrimeiraSessaoHome p { color: var(--principal); margin-top: 70px; font-size: 18px; line-height: 22px; z-index: 10; position: relative; }
-	.PrimeiraSessaoHome .div-dir { position: absolute; right: 0; top: 0; height: 100vh; }
-	.PrimeiraSessaoHome .div-dir .quadrado { width: 85px; height: 85px; display: block; background: var(--laranja); top: 324px; right: 200px; position: relative; z-index: 10; }
-	.PrimeiraSessaoHome .div-dir .triangulobaixo { width: 0px; height: 135px; border-left: 583px solid transparent; border-right: 538px solid transparent; border-bottom: 590px solid #707070; position: absolute; top: 212px; right: -315px; }
-	.PrimeiraSessaoHome .div-dir .triangulocima { width: 81px; height: 0; border-left: 695px solid transparent; border-top: 703px solid #414141; position: absolute; top: 0; right: -171px; }
-
-/* :PrimeiraSessaoHome */
-	
-	
 	
 

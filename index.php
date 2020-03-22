@@ -4,10 +4,10 @@
 	<?php 
 		include 'assets/config.php';
  
-		$tituloPagina = 'Acesso ao Brandbook - '. $empresa;
+		$tituloPagina = 'Brandbook - '. $empresa;
 		$descricaoCompartilhamento = '';
 		
-		$urlPagina = $Paginalogin;
+		$urlPagina = $Home;
 	?>
 <title><? echo $tituloPagina ?></title>
 	<?php include 'assets/head.php'; ?>
@@ -32,6 +32,19 @@
 				<div class="triangulobaixo"></div>
 				<div class="triangulocima"></div>
 			</div>
+		</section>
+
+		<section class="SegundaSessaoHome">
+			<article>
+				<h2>
+					Existimos para 
+					dar um novo 
+					olhar para os 
+					desafios 
+					financeiros 
+					e superá-los.
+				</h2>
+			</article>
 		</section>
         
 		<?php include 'assets/footer.php'; ?>
