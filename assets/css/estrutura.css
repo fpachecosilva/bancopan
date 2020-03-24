@@ -64,6 +64,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 /* :Slick */
 
 /* Página Home: */
+	.Home { color: var(--cinzaescuro); }
 	/* PrimeiraSessaoHome: */	
 		.PrimeiraSessaoHome { background-image: url('../images/bg principal.png'); padding: var(--margin); background-position-x: -100px; overflow: hidden; }
 		.PrimeiraSessaoHome .Logo { position: relative; top: 0; left: 0; }
@@ -78,9 +79,26 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	/* :PrimeiraSessaoHome */
 		
 	/* SegundaSessaoHome: */
-		.SegundaSessaoHome article { padding-left: var(--margin); padding-right: var(--margin); padding-top: 105px; }	
+		.SegundaSessaoHome article { padding-left: var(--margin); padding-right: var(--margin); padding-top: 105px; padding-bottom: 135px; display: grid; grid-template-columns: 405px auto; }	
+		.SegundaSessaoHome .box-direita { display: grid; margin-left: 40px;	grid-auto-rows: max-content; margin-left: 60px; }
+		.SegundaSessaoHome .box-cima { margin-bottom: 65px; }
+		.SegundaSessaoHome .box-cima p { font-size: 29px; line-height: 49px; font-weight: bold; text-transform: uppercase; color: var(--laranja); }
+		.SegundaSessaoHome .box-baixo { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 40px; }
+		.SegundaSessaoHome .box-baixo p { font-size: 14px; line-height: 23px; font-weight: 300}
 		.SegundaSessaoHome h2 { color: var(--cinzaescuro); font-size: 44px; font-weight: bolder; line-height: 49px; text-transform: uppercase; }
-	/* :SegundaSessaoHome: */		
+		.SegundaSessaoHome h4 { font-size: 21px; font-weight: bold; color: var(--azul); line-height: 28px; margin-bottom: 47px; margin-top: 101px }
+		.SegundaSessaoHome h6 { font-size: 20px; font-weight: bold; color: var(--azul); line-height: 24px; margin-bottom: 47px; }
+	/* :SegundaSessaoHome: */	
+	
+	/* TerceiraSessaoHome: */
+		.TerceiraSessaoHome article { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; }
+		.TerceiraSessaoHome img { max-width: 100%; width: 100%; height: 100%; }
+	/* :TerceiraSessaoHome: */
+
+	/* QuartaSessaoHome: */
+		.QuartaSessaoHome article { background-image: url('../images/Home_QuartaSessao.png'); width: 100%; height: 100%; }
+		.QuartaSessaoHome p { font-size: 13px; font-weight: bolder; line-height: 46px; position: absolute; left: 27px; top: 29px; color: var(--cinzaescuro); }
+	/* :QuartaSessaoHome: */
 
 /* :Página Home */
 
