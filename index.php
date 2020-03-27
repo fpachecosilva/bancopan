@@ -1,21 +1,19 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<?php 
-		include 'assets/config.php';
- 
-		$tituloPagina = 'Brandbook - '. $empresa;
-		$descricaoCompartilhamento = '';
-		
-		$urlPagina = $Home;
-	?>
-<title><? echo $tituloPagina ?></title>
-	<?php include 'assets/head.php'; ?>
-
+		<?php 
+			include 'assets/config.php';
+	
+			$tituloPagina = 'Brandbook - '. $empresa;
+			$descricaoCompartilhamento = '';
+			
+			$urlPagina = $Home;
+		?>
+		<title><? echo $tituloPagina ?></title>
+		<?php include 'assets/head.php'; ?>
 		<meta property="og:title" content="<? echo $tituloPagina ?>" />
 		<meta name="description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO SEO GOOGLE -->
 		<meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
-
 	</head>
 	<body class="Home">
 		<section class="PrimeiraSessaoHome fullscreen-bg">
@@ -32,6 +30,7 @@
 				<div class="triangulobaixo"></div>
 				<div class="triangulocima"></div>
 			</div>
+			<?php include('vermais.php'); ?>
 		</section>
 
 		<section class="SegundaSessaoHome">
@@ -121,8 +120,8 @@
 					<img class="fullscreen-bg" src="<? echo $images ?>Home_QuartaSessao.png" />
 				</a>
 			</article>
-		
 		</section>
+
         
 		<?php include 'assets/footer.php'; ?>
 	</body>

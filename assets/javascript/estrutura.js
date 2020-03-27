@@ -95,3 +95,18 @@ jQuery(document).ready(function() {
 		// $('html, body').animate({scrollTop: '0px'}, 600);
 		
 	});
+
+	$('.SliderLogotipoCor').slick({
+		dots: true,
+		arrows: false,
+		speed: 400,
+		infinite: true,
+		fade: true,
+		cssEase: 'linear',
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: false,
+		pauseOnHover: false,
+		pauseOnFocus: false,
+		adaptiveHeight: true
+	});

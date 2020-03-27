@@ -63,6 +63,13 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	
 /* :Slick */
 
+/* Extras: */
+	.VerMais::before { position: absolute; bottom: 25px; padding-left: 30px; display: flex; align-items: center; width: 55px; height: 35px; left: 50%; right: 50%; z-index: 20; color: var(--principal); content: 'ver mais'; background-image: url(../images/vermais.svg); background-repeat: no-repeat; font-size: 10px; }	
+	.VerMaisCinza::before { position: absolute; bottom: 25px; padding-left: 30px; display: flex; align-items: center; width: 55px; height: 35px; left: 50%; right: 50%; z-index: 20; color: var(--cinzaescuro); content: 'ver mais'; background-image: url(../images/vermaiscinza.svg); background-repeat: no-repeat; font-size: 10px; }	
+
+	.DownloadCinza::before { position: absolute; bottom: 25px; padding-left: 30px; display: flex; align-items: center; height: 26px; right: 52px; z-index: 20; color: var(--cinzaescuro); content: ''; background-image: url(../images/downloadcinza.svg); background-repeat: no-repeat; font-size: 10px; }	
+/* :Extras */
+
 /* Página Home: */
 	.Home { color: var(--cinzaescuro); }
 	/* PrimeiraSessaoHome: */	
@@ -74,8 +81,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.PrimeiraSessaoHome .div-dir { position: absolute; right: 0; top: 0; height: 100vh; }
 		.PrimeiraSessaoHome .div-dir .quadrado { width: 85px; height: 85px; display: block; background: var(--laranja); top: 324px; right: 200px; position: relative; z-index: 10; animation-duration: 0.7s; animation-name: rotacionar; }
 		.PrimeiraSessaoHome .div-dir .triangulobaixo { transform-origin: bottom left; width: 0px; height: 135px; border-left: 583px solid transparent; border-right: 538px solid transparent; border-bottom: 590px solid #707070; position: absolute; top: 212px; right: -315px; animation-name: left-right-corner; animation-duration: 0.7s; }
-		.PrimeiraSessaoHome .div-dir .triangulocima { transform-origin: left; width: 81px; height: 0; border-left: 695px solid transparent; border-top: 703px solid #414141; position: absolute; top: 0; right: -171px; animation-name: left-right; animation-duration: 0.4s;}
-		.PrimeiraSessaoHome::before { position: absolute; bottom: 17px; padding-left: 30px; display: flex; align-items: center; width: 55px; height: 35px; left: 50%; right: 50%; z-index: 20; color: var(--principal); content: 'ver mais'; background-image: url(../images/vermais.png); background-repeat: no-repeat; font-size: 10px; }	
+		.PrimeiraSessaoHome .div-dir .triangulocima { transform-origin: left; width: 81px; height: 0; border-left: 695px solid transparent; border-top: 703px solid #414141; position: absolute; top: 0; right: -171px; animation-name: left-right; animation-duration: 0.4s;}		
 	/* :PrimeiraSessaoHome */
 		
 	/* SegundaSessaoHome: */
@@ -101,6 +107,52 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	/* :QuartaSessaoHome: */
 
 /* :Página Home */
+
+/* Página Logo */
+	/* PrimeiraSessaoLogo: */
+		.PrimeiraSessaoLogo div.SliderLogotipoCor div {width: 100%; height: 100%!important; }
+		.PrimeiraSessaoLogo .SliderLogotipoCor p {margin-top: 140px;}
+		.PrimeiraSessaoLogo .SliderLogotipoCor img { max-width: 100%; }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-slide div { display: flex!important; justify-content: center; align-items: center; }
+		
+		.PrimeiraSessaoLogo .slick-dotted { margin-bottom: 0; }
+		.PrimeiraSessaoLogo .SliderLogotipoCor div:nth-of-type(2) {background-color: var(--cinzaescuro);}
+		.PrimeiraSessaoLogo .SliderLogotipoCor div:nth-of-type(3) {background-color: var(--azul);}
+		.PrimeiraSessaoLogo .SliderLogotipoCor div:nth-of-type(4) {background-color: var(--azul);}
+		.PrimeiraSessaoLogo .SliderLogotipoCor div:nth-of-type(5) {background-color: var(--laranja);}
+		.PrimeiraSessaoLogo .SliderLogotipoCor div:nth-of-type(6) {background-color: var(--laranja);}
+		.PrimeiraSessaoLogo .SliderLogotipoCor div:nth-of-type(7) {background: url('../images/Logo_QuartaSessao_bg_maior.png'); background-repeat: no-repeat; background-size: cover; }
+		
+		.PrimeiraSessaoLogo .SliderLogotipoCor ul.slick-dots { width: auto; margin-left: 52px; margin-bottom: 25px; bottom: 0 }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li  { width: 22px; height: 22px; margin: 0px; padding: 5px; }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li button:before { width: 22px; height: 22px;  }
+		
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(1) button:before { background: #fff; border-color: transparent }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(2) button:before { background: var(--cinzaescuro); border-color: transparent }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(3) button:before { background: var(--azul); }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(4) button:before { background: url('../images/Logo_Slider_Cinza_Azul.svg'); border-color: var(--cinza) }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(5) button:before { background: var(--laranja); border-color: #ffffff87 }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(6) button:before { background: url('../images/Logo_Slider_Cinza_Laranja.svg'); border-color: var(--cinza) }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(7) button:before { background: url('../images/Logo_Slider_Circulo_Colorido.svg'); border: transparent }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(8) button:before { background: url('../images/Logo_Slider_Branco_Preto.svg'); border: 0 }
+		
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active button:before { top: -10px; }	
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(1) button:before { border: 1px solid var(--cinza) }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(2) button:before { border: 1px solid #fff }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(3) button:before { border: 1px solid #fff }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(5) button:before { border: 1px solid #fff }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(6) button:before { border: 1px solid var(--cinza) }
+		
+		.PrimeiraSessaoLogo .texto-circulos { max-width: 223px; position: absolute; left: 335px; bottom: 25px; }
+		.PrimeiraSessaoLogo .texto-circulos p { font-size: 14px; line-height: 15px; }
+	/* :PrimeiraSessaoLogo */
+
+	/* :SegundaSessaoLogo */
+
+	/* SegundaSessaoLogo: */
+
+	
+/* :Página Logo */
 
 	
 
