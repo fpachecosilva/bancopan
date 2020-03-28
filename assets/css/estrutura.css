@@ -67,7 +67,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	.VerMais::before { position: absolute; bottom: 25px; padding-left: 30px; display: flex; align-items: center; width: 55px; height: 35px; left: 50%; right: 50%; z-index: 20; color: var(--principal); content: 'ver mais'; background-image: url(../images/vermais.svg); background-repeat: no-repeat; font-size: 10px; }	
 	.VerMaisCinza::before { position: absolute; bottom: 25px; padding-left: 30px; display: flex; align-items: center; width: 55px; height: 35px; left: 50%; right: 50%; z-index: 20; color: var(--cinzaescuro); content: 'ver mais'; background-image: url(../images/vermaiscinza.svg); background-repeat: no-repeat; font-size: 10px; }	
 
-	.DownloadCinza::before { position: absolute; bottom: 25px; padding-left: 30px; display: flex; align-items: center; height: 26px; right: 52px; z-index: 20; color: var(--cinzaescuro); content: ''; background-image: url(../images/downloadcinza.svg); background-repeat: no-repeat; font-size: 10px; }	
+	.DownloadCinza::before { padding-left: 30px; position: relative; display: block; float: right; margin-top: -50px; margin-right: 52px; height: 26px; z-index: 20; color: var(--cinzaescuro); content: ''; background-image: url(../images/downloadcinza.svg); background-repeat: no-repeat; font-size: 10px; }
 /* :Extras */
 
 /* Página Home: */
@@ -109,6 +109,16 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 /* :Página Home */
 
 /* Página Logo */
+	.Logo {}
+	.Logo .BoxMenor article { background: var(--cinza); display: grid; grid-template-columns: 348px auto; align-items: center; padding: 36px 0; }
+	.Logo .BoxMenor h3 { font-size: 20px; font-weight: bold; color: var(--azul); text-transform: uppercase; text-align: center; }
+	.Logo .BoxMenor p { font-size: 15px; line-height: 23px; color: var(--principal); }
+
+	.Logo .BoxMaior article { background: var(--cinzaescuro); display: grid; grid-template-columns: 50% 50%; align-items: center; justify-items: center; padding: 68px 0; }
+	.Logo .BoxMaior h3 { font-size: 32px; line-height: 36px; font-weight: bold; color: var(--azul); margin-left: 85px;  }
+	.Logo .BoxMaior p { font-size: 18px; line-height: 24px; color: var(--principal); font-weight: 400; }
+	.Logo .BoxMaior p.link { font-size: 14px; line-height: 17px; color: var(--laranja); font-weight: 500; margin-top: 23px;  }
+	.Logo .BoxMaior p.link a { font-size: 14px; line-height: 17px; color: var(--laranja); text-decoration: underline; font-weight: 300 }
 	/* PrimeiraSessaoLogo: */
 		.PrimeiraSessaoLogo div.SliderLogotipoCor div {width: 100%; height: 100%!important; }
 		.PrimeiraSessaoLogo .SliderLogotipoCor p {margin-top: 140px;}
@@ -127,7 +137,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li  { width: 22px; height: 22px; margin: 0px; padding: 5px; }
 		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li button:before { width: 22px; height: 22px;  }
 		
-		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(1) button:before { background: #fff; border-color: transparent }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(1) button:before { background: var(--principal); border-color: transparent }
 		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(2) button:before { background: var(--cinzaescuro); border-color: transparent }
 		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(3) button:before { background: var(--azul); }
 		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(4) button:before { background: url('../images/Logo_Slider_Cinza_Azul.svg'); border-color: var(--cinza) }
@@ -138,18 +148,81 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		
 		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active button:before { top: -10px; }	
 		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(1) button:before { border: 1px solid var(--cinza) }
-		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(2) button:before { border: 1px solid #fff }
-		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(3) button:before { border: 1px solid #fff }
-		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(5) button:before { border: 1px solid #fff }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(2) button:before { border: 1px solid var(--principal) }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(3) button:before { border: 1px solid var(--principal) }
+		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(5) button:before { border: 1px solid var(--principal) }
 		.PrimeiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(6) button:before { border: 1px solid var(--cinza) }
 		
 		.PrimeiraSessaoLogo .texto-circulos { max-width: 223px; position: absolute; left: 335px; bottom: 25px; }
-		.PrimeiraSessaoLogo .texto-circulos p { font-size: 14px; line-height: 15px; }
+		.PrimeiraSessaoLogo .texto-circulos p { font-size: 14px; line-height: 15px; color: var(--cinza); }
 	/* :PrimeiraSessaoLogo */
 
 	/* :SegundaSessaoLogo */
-
+		.SegundaSessaoLogo .wrapper { display: grid; grid-template-columns: 50% 50%; min-height: 100%; grid-template-rows: 100%; font-size: 14px; line-height: 17px; }
+		.SegundaSessaoLogo h6 { text-transform: uppercase; font-size: 14px; font-weight: bold; line-height: 15px; color: var(--principal) }
+		
+		.SegundaSessaoLogo .wrapper-img { width: 100%; height: 100%; display: flex;	align-items: center; justify-content: center; }
+		.SegundaSessaoLogo img { max-width: 100%; }
+		
+		.SegundaSessaoLogo .esq { background: var(--cinzaescuro); color: var(--principal); }
+		.SegundaSessaoLogo .esq p { max-width: 100%; position: absolute; bottom: 36px; margin-left: 52px; }
+		.SegundaSessaoLogo .esq h6 { margin-left: 52px; position: absolute; top: 32px; }
+		
+		.SegundaSessaoLogo .dir { background: var(--secundaria); }
+		.SegundaSessaoLogo .dir p { position: absolute; bottom: 25px; margin-left: 23px; }
+		.SegundaSessaoLogo .dir h6 { color: var(--cinza); position: absolute; top: 32px; margin-left: 31px; }		
 	/* SegundaSessaoLogo: */
+	
+	
+	/* TerceiraSessaoLogo: */
+		.TerceiraSessaoLogo div.SliderLogotipoCor div {width: 100%; height: 100%!important; }
+		.TerceiraSessaoLogo .SliderLogotipoCor p {margin-top: 140px;}
+		.TerceiraSessaoLogo .SliderLogotipoCor img { max-width: 100%; }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-slide div { display: flex!important; justify-content: center; align-items: center; }
+		
+		.TerceiraSessaoLogo .slick-dotted { margin-bottom: 0; }
+		.TerceiraSessaoLogo .SliderLogotipoCor div:nth-of-type(2) {background-color: var(--cinzaescuro);}
+		.TerceiraSessaoLogo .SliderLogotipoCor div:nth-of-type(3) {background-color: var(--azul);}
+		.TerceiraSessaoLogo .SliderLogotipoCor div:nth-of-type(4) {background-color: var(--azul);}
+		.TerceiraSessaoLogo .SliderLogotipoCor div:nth-of-type(5) {background-color: var(--laranja);}
+		.TerceiraSessaoLogo .SliderLogotipoCor div:nth-of-type(6) {background-color: var(--laranja);}
+		.TerceiraSessaoLogo .SliderLogotipoCor div:nth-of-type(7) {background: url('../images/Logo_QuartaSessao_bg_menor.png'); background-repeat: no-repeat; background-size: cover; }
+		
+		.TerceiraSessaoLogo .SliderLogotipoCor ul.slick-dots { width: auto; margin-left: 52px; margin-bottom: 25px; bottom: 0 }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li  { width: 22px; height: 22px; margin: 0px; padding: 5px; }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li button:before { width: 22px; height: 22px;  }
+		
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(1) button:before { background: var(--principal); border-color: transparent }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(2) button:before { background: var(--cinzaescuro); border-color: transparent }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(3) button:before { background: var(--azul); }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(4) button:before { background: url('../images/Logo_Slider_Cinza_Azul.svg'); border-color: var(--cinza) }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(5) button:before { background: var(--laranja); border-color: #ffffff87 }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(6) button:before { background: url('../images/Logo_Slider_Cinza_Laranja.svg'); border-color: var(--cinza) }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(7) button:before { background: url('../images/Logo_Slider_Circulo_Colorido.svg'); border: transparent }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots li:nth-of-type(8) button:before { background: url('../images/Logo_Slider_Branco_Preto.svg'); border: 0 }
+		
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active button:before { top: -10px; }	
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(1) button:before { border: 1px solid var(--cinza) }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(2) button:before { border: 1px solid var(--principal) }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(3) button:before { border: 1px solid var(--principal) }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(5) button:before { border: 1px solid var(--principal) }
+		.TerceiraSessaoLogo .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(6) button:before { border: 1px solid var(--cinza) }
+		
+		.TerceiraSessaoLogo .texto-circulos { max-width: 223px; position: absolute; left: 335px; bottom: 25px; }
+		.TerceiraSessaoLogo .texto-circulos p { font-size: 14px; line-height: 15px; color: var(--cinza); }
+
+		.TerceiraSessaoLogo .wrapper { display: grid; grid-template-columns: 50% 50%; height: 100%; }
+		.TerceiraSessaoLogo .dir { display: grid; grid-template-rows: 50% 50%; font-size: 14px; line-height: 17px; }
+		.TerceiraSessaoLogo .dir p:first-child { text-transform: uppercase; font-weight: bold; line-height: 15px; margin-top: 22px; margin-left: 23px }
+		.TerceiraSessaoLogo .dir p:last-child { margin-left: 23px; margin-bottom: 25px; position: relative; display: flex; align-self: flex-end; }		
+		.TerceiraSessaoLogo .dir > div { display: grid; grid-template-columns: 170px auto; }
+		.TerceiraSessaoLogo .dir > div:first-child { background: var(--cinzaescuro); color: var(--principal) }
+		.TerceiraSessaoLogo .dir > div:last-child { background: var(--secundaria); color: var(--cinzaescuro) }
+		.TerceiraSessaoLogo .dir > div > div:first-child { display: grid; grid-template-rows: 50% 50%; }
+		.TerceiraSessaoLogo .dir > div > div:last-child { display: grid; align-items: center; justify-items: center; }
+	/* :TerceiraSessaoLogo */
+
+	/* VER TEXTO DAS BOLINHAS FICAR BRANCO NOS FUNDOS COLORIDOS */
 
 	
 /* :Página Logo */

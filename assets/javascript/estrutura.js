@@ -110,3 +110,5 @@ jQuery(document).ready(function() {
 		pauseOnFocus: false,
 		adaptiveHeight: true
 	});
+
+	
