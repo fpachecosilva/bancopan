@@ -111,4 +111,21 @@ jQuery(document).ready(function() {
 		adaptiveHeight: true
 	});
 
-	
+$(document).ready(function(){
+
+	$('.SliderLogotipoCor button').on('click', function(){
+		if( $(this).attr('id') == 'slick-slide-control00' || $(this).attr('id') == 'slick-slide-control07' || $(this).attr('id') == 'slick-slide-control10' || $(this).attr('id') == 'slick-slide-control17' || $(this).attr('id') == 'slick-slide-control20' || $(this).attr('id') == 'slick-slide-control27'  ) {
+			
+			$('.texto-circulos p').css('color','var(--cinza)')
+			$('.VerMais').addClass('Cinza');
+			$('.Download').addClass('Cinza');
+
+		} else {
+
+			$('.texto-circulos p').css('color','var(--principal)')
+			$('.VerMais').removeClass('Cinza');
+			$('.Download').removeClass('Cinza');
+		}	
+	})
+})
+

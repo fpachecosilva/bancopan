@@ -158,7 +158,6 @@
 
                     </div>
                 </div>
-
             </article>
         </section>
 
@@ -171,6 +170,78 @@
                 aplicar o logo por completo esta versão continua nos representando,<br>
                 independente da situação. Ex: Redes sociais, aplicativo, etc.
                 </p>
+            </article>
+        </section>
+
+        <section class="QuartaSessaoLogo">
+            <article>
+                <div class="wrapper">
+                    <div class="esq">
+                        <div class="SliderLogotipoCor ">
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_01.png"/>                    
+                            </div>
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_02.png"/>                    
+                            </div>
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_03.png"/>                    
+                            </div>
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_04.png"/>                    
+                            </div>
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_05.png"/>                    
+                            </div>
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_06.png"/>                    
+                            </div>
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_07.png"/>                    
+                            </div>
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_08.png"/>                    
+                            </div>
+                        </div>
+                        <?php include('linkdownload.php'); ?>
+                    </div>
+                    <div class="dir">
+
+                        <div>
+                            <div>
+                                <p>
+                                    Área de<br> proteção
+                                </p>
+                                <p>
+                                    A área de segurança<br> é igual a altura da<br> letra “P” do logo. 
+                                </p>
+                            </div>
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_Direita_Cima.png"/>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div>
+                                <p>
+                                    Redução<br> 
+                                    máxima
+                                </p>
+                                <p>
+                                    Impressos:<br>
+                                    X=8mm<br><br>
+  
+                                    Digital:<br>
+                                    X=40px  
+                                </p>
+                            </div>
+                            <div>
+                                <img src="<? echo $images ?>Logo_QuartaSessao_Direita_Baixo.png"/>
+                            </div>
+                        </div>                       
+
+                    </div>
+                </div>
             </article>
         </section>
 
@@ -205,6 +276,59 @@
                 </p>
             </article>
         </section>  
+
+        <section class="SextaSessaoLogo">
+            <article>
+                <p>Não Fazemos</p>
+                <div class ="wrapper">
+                    <div>
+                        <img src="<? echo $images ?>Logo_SextaSessao_01.png"/>
+                        <p>
+                            Nunca distorcer o logo<br>
+                            ou o símbolo.</p>
+                    </div>
+                    <div>
+                        <img src="<? echo $images ?>Logo_SextaSessao_02.png"/>
+                        <p>
+                            Não utilizar a cor Coral,<br> 
+                            ou qualquer outra fora da paleta,<br>
+                            no logo e símbolo.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="<? echo $images ?>Logo_SextaSessao_03.png"/>
+                        <p>
+                            Não adicionar nenhuma<br>
+                            informação ao logo ou símbolo.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="<? echo $images ?>Logo_SextaSessao_04.png"/>
+                        <p>
+                            Não utilizar o logo ou símbolo<br>
+                            em baixa resolução.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="<? echo $images ?>Logo_SextaSessao_05.png"/>
+                        <p>
+                            <strong>APENAS</strong> adicionar o símbolo junto<br>
+                            com o logo se a peça tiver mais de uma<br>
+                            face ex. frente e verso de folder, relatório, etc.<br> 
+                            <strong>NUNCA</strong> colocar os dois juntos em<br>
+                            uma mesma face.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="<? echo $images ?>Logo_SextaSessao_06.png"/>
+                        <p>
+                            Respeitar o uso do logo para que<br>
+                            sempre tenha legibilidade
+                        </p>
+                    </div>                    
+                </div>
+            </article>
+        </section>
 
     
         <?php include 'assets/footer.php'; ?>
