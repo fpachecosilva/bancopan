@@ -112,7 +112,6 @@ jQuery(document).ready(function() {
 	});
 
 $(document).ready(function(){
-
 	$('.SliderLogotipoCor button').on('click', function(){
 		if( $(this).attr('id') == 'slick-slide-control00' || $(this).attr('id') == 'slick-slide-control07' || $(this).attr('id') == 'slick-slide-control10' || $(this).attr('id') == 'slick-slide-control17' || $(this).attr('id') == 'slick-slide-control20' || $(this).attr('id') == 'slick-slide-control27'  ) {
 			
