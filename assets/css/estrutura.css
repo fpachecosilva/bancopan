@@ -106,7 +106,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 /* Boxes: */
 	.BoxMenor article { background: var(--cinza); display: grid; grid-template-columns: 348px auto; align-items: center; padding: 36px 0; }
 	.BoxMenor h3 { font-size: 20px; line-height: 23px; font-weight: bold; color: var(--azul); text-transform: uppercase; text-align: center; }
-	.BoxMenor p { font-size: 15px; line-height: 23px; color: var(--principal); }
+	.BoxMenor p { font-size: 15px; line-height: 23px; color: var(--principal); font-weight: 500;}
 
 	.BoxMaior article { background: var(--cinzaescuro); display: grid; grid-template-columns: 50% 50%; align-items: center; justify-items: center; padding: 68px 0; }
 	.BoxMaior h3 { font-size: 32px; line-height: 36px; font-weight: bold; color: var(--azul); margin-left: 85px;  }
@@ -225,11 +225,13 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	.Grafismos .BoxGridImagens > div { display: grid; grid-template-rows: auto auto; }
 	.Grafismos .BoxGridImagens > div p { padding-top: 60px; font-size: 11px; line-height: 14px; color: var(--cinzaescuro); text-align: center; }
 
-	.Grafismos .BoxNaoFazemos { background: var(--secundaria) }
-	.Grafismos .BoxNaoFazemos div:first-of-type { display: grid; grid-template-rows: auto auto; grid-template-columns: 185px auto; align-items: center; padding-top: 40px; padding-bottom: 80px }
-	.Grafismos .BoxNaoFazemos div:first-of-type > div {}
+	.Grafismos .BoxNaoFazemos { background: var(--secundaria); color: var(--cinzaescuro); font-size: 11px; line-height: 14px; }
+	.Grafismos .BoxNaoFazemos > div:first-of-type { display: grid; grid-template-rows: auto auto; grid-template-columns: 350px auto; align-items: baseline; padding-top: 40px; padding-bottom: 80px }	
+	.Grafismos .BoxNaoFazemos > div:last-of-type { display: grid; grid-template-columns: 25% 25% 25% 25%; justify-items: center; padding-bottom: 80px; text-align: center; }
+	.Grafismos .BoxNaoFazemos .Titulo p { margin-left: var(--margin); font-weight: bold; font-size: 14px; line-height: 15px; }
+	.Grafismos .BoxNaoFazemos .Desc p { font-size: 14px; line-height: 23px; }
+	.Grafismos .BoxNaoFazemos img { margin-bottom: 30px; max-width: 100%; }
 
-	.Grafismos .BoxNaoFazemos div:last-of-type { display: grid; grid-template-columns: 25% 25% 25% 25%; }
 	/* GrafismosPrimeiraSessao: */
 		.GrafismosPrimeiraSessao { background-image: url('../images/Grafismos_PrimeiraSessao.png'); background-size: cover; background-repeat: no-repeat; }
 		.Grafismos .BoxMenor article { align-items: baseline; }
