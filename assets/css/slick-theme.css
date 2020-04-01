@@ -38,7 +38,7 @@
 {
     color: transparent;
     outline: none;
-    background: transparent;
+    /* background: transparent; */
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -76,7 +76,7 @@
 }
 .slick-prev:before
 {
-    content: '\f104';
+    /* content: '\f104'; */
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -94,7 +94,7 @@
 }
 .slick-next:before
 {
-    content: '\f105';
+    /* content: '\f105'; */
 }
 [dir='rtl'] .slick-next:before
 {
@@ -110,7 +110,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: 23px;
 
     display: block;
 

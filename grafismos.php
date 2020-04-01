@@ -131,5 +131,122 @@
             </article>
         </section>
 
+        <section class="GrafismosQuartaSessao">
+            <article>
+                <div class="SliderGrafismos">
+                    <img src="<? echo $images ?>Grafismos_QuartaSessao_01.png"/>
+                    <img src="<? echo $images ?>Grafismos_QuartaSessao_02.png"/>
+                    <img src="<? echo $images ?>Grafismos_QuartaSessao_03.png"/>
+                    <img src="<? echo $images ?>Grafismos_QuartaSessao_04.png"/>
+                    <img src="<? echo $images ?>Grafismos_QuartaSessao_05.png"/>
+                </div>
+                <?php include('linkdownload.php'); ?>
+            </article>
+        </section>
+
+        <section class="BoxMenor">
+            <article>
+                <h3>
+                    Grafismo<br>
+                    flexível
+                </h3>
+                <p>
+                    <strong>Para comunicação promocional:</strong> peças com um pouco mais texto.<br>
+                    Os  tamanhos e combinações de cores são flexíveis.<br><br>
+
+                    Onde aplicar:<br>
+                    Anúncios, cartazes, folders, banners digitais, etc.
+                </p>
+            </article>
+        </section>
+
+        <section class="GrafismosQuintaSessao">
+            <article>
+                <div class="SliderGrafismos">
+                    <img src="<? echo $images ?>Grafismos_QuintaSessao_01.png"/>
+                    <img src="<? echo $images ?>Grafismos_QuintaSessao_02.png"/>
+                    <img src="<? echo $images ?>Grafismos_QuintaSessao_03.png"/>
+                    <img src="<? echo $images ?>Grafismos_QuintaSessao_04.png"/>
+                    <img src="<? echo $images ?>Grafismos_QuintaSessao_05.png"/>
+                </div>
+                <?php include('linkdownload.php'); ?>
+            </article>
+        </section>
+
+        <section class="BoxMenor">
+            <article>
+                <h3>
+                    Usos
+                </h3>
+                <p>
+                    Minha identidade possui 5 modelos de grafismos. Cada um atente uma<br>
+                    necessidade específica da nossa comunicação. São eles:
+                </p>
+            </article>
+        </section>
+
+        <section class="GrafismosSextaSessao">
+            <article>
+                <div class="BoxGridImagens">
+                    <div>
+                        <img src="<? echo $images ?>Grafismos_SextaSessao_01.png"/>
+                        <p>O pixel pode variar de tamanho.</p>
+                    </div>
+                    <div>
+                        <img src="<? echo $images ?>Grafismos_SextaSessao_02.png"/>
+                        <p>E posição.</p>
+                    </div>
+                    <div>
+                        <img src="<? echo $images ?>Grafismos_SextaSessao_03.png"/>
+                        <p>
+                            Com a possibilidade de ajustar-se conforme a<br>
+                            necessidade (mais texto, menos texto, imagens<br>
+                            maiores ou menores).
+                        </p>
+                    </div>
+                    <div>
+                        <img src="<? echo $images ?>Grafismos_SextaSessao_04.png"/>
+                        <p>
+                            Para facilitar e harmonizar a diagramação<br>
+                            conforme o formato.
+                        </p>
+                    </div>
+                </div>                
+            </article>
+        </section>
+
+        <section class="GrafismosSetimaSessao">
+            <article>
+                <div class="BoxNaoFazemos">
+                    <div>
+                        <div>
+                            <p>PLINHA 1</p>                            
+                        </div>
+                        <div>
+                            <p>TEXTO DIREITA</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="<? echo $images ?>Grafismos_SetimaSessao_01.png"/>
+                            <p>O pixel pode variar de tamanho.</p>
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Grafismos_SetimaSessao_02.png"/>
+                            <p>E posição.</p>
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Grafismos_SetimaSessao_03.png"/>
+                            <p>
+                                Com a possibilidade de ajustar-se conforme a<br>
+                                necessidade (mais texto, menos texto, imagens<br>
+                                maiores ou menores).
+                            </p>
+                        </div>
+                    </div>
+                </div>                
+            </article>
+        </section>
+
         <?php include 'assets/footer.php'; ?>
 	</body>

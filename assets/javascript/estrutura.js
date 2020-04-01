@@ -111,7 +111,24 @@ jQuery(document).ready(function() {
 		adaptiveHeight: true
 	});
 
-$(document).ready(function(){
+	$('.SliderGrafismos').slick({
+		dots: true,
+		arrows: true,
+		prevArrow: '<div class="slick-prev"></div>',
+      	nextArrow: '<div class="slick-next"></div>',
+		speed: 400,
+		infinite: true,
+		fade: true,
+		cssEase: 'linear',
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: false,
+		pauseOnHover: false,
+		pauseOnFocus: false,
+		adaptiveHeight: false
+	});
+
+	
 	$('.SliderLogotipoCor button').on('click', function(){
 		if( $(this).attr('id') == 'slick-slide-control00' || $(this).attr('id') == 'slick-slide-control07' || $(this).attr('id') == 'slick-slide-control10' || $(this).attr('id') == 'slick-slide-control17' || $(this).attr('id') == 'slick-slide-control20' || $(this).attr('id') == 'slick-slide-control27'  ) {
 			
@@ -126,5 +143,8 @@ $(document).ready(function(){
 			$('.Download').removeClass('Cinza');
 		}	
 	})
-})
-
+	
+	if ( $('.GrafismosQuartaSessao div').hasClass('SliderGrafismos') ) {
+		$('.Download').addClass('ComTexto');
+	}
+	
