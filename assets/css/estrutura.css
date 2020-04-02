@@ -158,7 +158,6 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	.SliderLogotipoCor div:nth-of-type(4) {background-color: var(--azul);}
 	.SliderLogotipoCor div:nth-of-type(5) {background-color: var(--laranja);}
 	.SliderLogotipoCor div:nth-of-type(6) {background-color: var(--laranja);}	
-	
 
 	/* PrimeiraSessaoLogo: */
 		.PrimeiraSessaoLogo .SliderLogotipoCor div:nth-of-type(7) {background: url('../images/Logo_QuartaSessao_bg_maior.png'); background-repeat: no-repeat; background-size: cover; }
@@ -258,11 +257,108 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.SliderGrafismos .slick-dots li button:before { width: 12px; height: 12px; border: 0 }
 		.SliderGrafismos .slick-dots li.slick-active button:before { background-color: var(--laranja) }
 		/* Fazer interacao das arrows mudarem de cor */
-
-	/* :GrafismosSextaSessao */
-		
-	/* :GrafismosSextaSessao */
-
-	/* :GrafismosQuintaSessao: */
-
 /* :Página Grafismos */
+
+/* :Página Cores */
+	/* CoresPrimeiraSessao: */
+		.PrimeiraSessaoCores { background-image: url('../images/Cores_PrimeiraSessao_01.png'); }
+	/* :CoresPrimeiraSessao */
+	
+	/* CoresSegundaSessao: */
+		.SegundaSessaoCores { background: var(--cinzaescuro); color: var(--principal); padding-top: var(--margin); padding-bottom: var(--margin); }
+		.SegundaSessaoCores .wrapper { padding-left: var(--margin); }
+		.SegundaSessaoCores .TituloCor p { font-size: 71px; font-weight: bold; margin-bottom: 240px; text-transform: uppercase; }
+		.SegundaSessaoCores .DescCor p { font-size: 14px; line-height: 15px; font-weight: bold; text-transform: uppercase; }
+	/* :CoresSegundaSessao */
+
+	/* CoresTerceiraSessao: */
+		.TerceiraSessaoCores { text-transform: uppercase; font-weight: bold; color: var(--principal); }
+		.TerceiraSessaoCores .wrapper { display: grid; grid-template-columns: 33.33% 33.33% 33.33%; }
+		.TerceiraSessaoCores .TituloCor p { font-size: 26px; line-height: 27px; margin-bottom: 330px; }
+		.TerceiraSessaoCores .DescCor p { font-size: 14px; line-height: 15px; }
+			
+		.TerceiraSessaoCores .Box1 { background: var(--cinza); padding: 33px 0 37px 52px }
+		.TerceiraSessaoCores .Box2 { background: var(--azul); padding: 33px 0 37px 52px }
+		.TerceiraSessaoCores .Box3 { background: var(--laranja); padding: 33px 0 37px 52px }
+	/* :CoresTerceiraSessao */	
+
+	/* CoresQuartaSessao: */
+		.QuartaSessaoCores { color: var(--cinzaescuro) }
+		.QuartaSessaoCores article { display: grid; grid-template-columns: 50% 50%; padding-top: 104px; padding-bottom: 86px; padding-left: var(--margin); align-items: center; }
+		.QuartaSessaoCores h2 { font-size: 49px; line-height: 51px; font-weight: 900; text-transform: uppercase; }
+	/* :CoresQuartaSessao */
+
+	/* CoresQuintaSessao: */
+		.QuintaSessaoCores {} 
+		.QuintaSessaoCores .wrapper { display: grid; grid-template-columns: 50% 50%; padding-top: 40px; padding-bottom: 80px; }
+		
+		.QuintaSessaoCores .boxes div { height: 38px; width: 100%; display: block; font-size: 11px; font-weight: 700; }
+		.QuintaSessaoCores .boxes div span { padding-top: 15px; }
+		.QuintaSessaoCores .boxes div span:first-child { float: left; margin-left: 9px; }
+		.QuintaSessaoCores .boxes div span:last-child { float: right; margin-right: 9px; }
+		
+		.QuintaSessaoCores .esq { display: grid; grid-template-rows: auto auto; color: var(--cinzaescuro); margin-left: var(--margin); }		
+		.QuintaSessaoCores .esq-cima { text-transform: uppercase; }
+		
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(1) { background: #212121; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(2) { background: #414141; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(3) { background: #616161; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(4) { background: #757575; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(5) { background: #9E9E9E; color: #000 }
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(6) { background: #BDBDBD; color: #000 }
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(7) { background: #E0E0E0; color: #000 }
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(8) { background: #EEEEEE; color: #000 }
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(9) { background: #F5F5F5; color: #000 }
+		.QuintaSessaoCores .esq-cima .box1 .boxes div:nth-of-type(10) { background: #FAFAFA; color: #000 }
+
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(1) { background: #01579B; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(2) { background: #0277BD; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(3) { background: #0288D1; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(4) { background: #039BE5; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(5) { background: #03A9F4; color: #000 }
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(6) { background: #29B6F6; color: #000 }
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(7) { background: #4FC3F7; color: #000 }
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(8) { background: #81D4FA; color: #000 }
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(9) { background: #B3E5FC; color: #000 }
+		.QuintaSessaoCores .esq-cima .box2 .boxes div:nth-of-type(10) { background: #E1F5FE; color: #000 }
+
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(1) { background: #BF360C; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(2) { background: #D84315; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(3) { background: #E64A19; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(4) { background: #F4511E; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(5) { background: #FF5630; color: #FFF }
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(6) { background: #FF7043; color: #000 }
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(7) { background: #FF8A65; color: #000 }
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(8) { background: #FFAB91; color: #000 }
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(9) { background: #FFCCBC; color: #000 }
+		.QuintaSessaoCores .esq-cima .box3 .boxes div:nth-of-type(10) { background: #FBE9E7; color: #000 }
+
+		.QuintaSessaoCores .esq-baixo .box1 .boxes div:nth-of-type(1) { background: #008648; color: #FFF }
+		.QuintaSessaoCores .esq-baixo .box1 .boxes div:nth-of-type(2) { background: #00CC88; color: #000 }
+		.QuintaSessaoCores .esq-baixo .box1 .boxes div:nth-of-type(3) { background: #86E7C7; color: #000 }
+		.QuintaSessaoCores .esq-baixo .box1 .boxes div:nth-of-type(4) { background: #E4F8EE; color: #000 }
+
+		.QuintaSessaoCores .esq-baixo .box2 .boxes div:nth-of-type(1) { background: #D2A500; color: #000 }
+		.QuintaSessaoCores .esq-baixo .box2 .boxes div:nth-of-type(2) { background: #FFC925; color: #000 }
+		.QuintaSessaoCores .esq-baixo .box2 .boxes div:nth-of-type(3) { background: #FFDE7B; color: #000 }
+		.QuintaSessaoCores .esq-baixo .box2 .boxes div:nth-of-type(4) { background: #FFF8E1; color: #000 }
+
+		.QuintaSessaoCores .esq-baixo .box3 .boxes div:nth-of-type(1) { background: #E32000; color: #FFF }
+		.QuintaSessaoCores .esq-baixo .box3 .boxes div:nth-of-type(2) { background: #FF5E33; color: #FFF }
+		.QuintaSessaoCores .esq-baixo .box3 .boxes div:nth-of-type(3) { background: #FFA289; color: #000 }
+		.QuintaSessaoCores .esq-baixo .box3 .boxes div:nth-of-type(4) { background: #FEE7E5; color: #000 }
+		
+		.QuintaSessaoCores .esq-cima { display: grid; grid-template-columns: 167px 167px 167px; grid-column-gap: 7px; margin-bottom: 50px; }
+		.QuintaSessaoCores .esq p:first-child { font-size: 14px; line-height: 15px; font-weight: bold; margin-bottom: 20px; }
+
+		.QuintaSessaoCores .esq-baixo { display: grid; grid-template-columns: 167px 167px 167px; grid-column-gap: 7px; }
+	/* :CoresQuintaSessao */
+
+	/* CoresSextaSessao: */
+		.SextaSessaoCores .wrapper { display: grid; grid-template-columns: auto auto auto auto; align-items: center; justify-items: center; font-size: 12px; line-height: 15px; text-align: center; color: var(--cinzaescuro); background: var(--secundaria); padding-top: 55px;  }
+		.SextaSessaoCores p:first-child { text-transform: uppercase; font-size: 14px; font-weight: bold; color: var(--cinzaescuro); margin-left: var(--margin); margin-top: 42px; margin-bottom: 55px; position: absolute; }
+		.SextaSessaoCores p:last-child{ margin-bottom: 50px}
+		.SextaSessaoCores img { margin: auto; margin-bottom: 22px; margin-top: var(--margin) }
+	/* :CoresSextaSessao */
+
+/* Página Cores: */
