@@ -81,35 +81,37 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	/* :PrimeiraSessaoHome */
 		
 	/* SegundaSessaoHome: */
-		.SegundaSessaoHome article { padding-left: var(--margin); padding-right: var(--margin); padding-top: 105px; padding-bottom: 135px; display: grid; grid-template-columns: 405px auto; }	
+		.SegundaSessaoHome .teste { padding-left: var(--margin); padding-right: var(--margin); padding-top: 105px; padding-bottom: 135px; display: grid; grid-template-columns: 405px auto; }	
 		.SegundaSessaoHome .box-direita { display: grid; margin-left: 40px;	grid-auto-rows: max-content; margin-left: 60px; }
 		.SegundaSessaoHome .box-cima { margin-bottom: 65px; }
 		.SegundaSessaoHome .box-cima p { font-size: 29px; line-height: 49px; font-weight: bold; text-transform: uppercase; color: var(--laranja); }
 		.SegundaSessaoHome .box-baixo { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 40px; }
 		.SegundaSessaoHome .box-baixo p { font-size: 14px; line-height: 23px; font-weight: 300}
 		.SegundaSessaoHome h2 { color: var(--cinzaescuro); font-size: 44px; font-weight: bolder; line-height: 49px; text-transform: uppercase; }
-		.SegundaSessaoHome h4 { font-size: 21px; font-weight: bold; color: var(--azul); line-height: 28px; margin-bottom: 47px; margin-top: 101px }
+		.SegundaSessaoHome h4 { font-size: 21px; font-weight: bold; color: var(--azul); line-height: 28px; margin-top: 101px }
 		.SegundaSessaoHome h6 { font-size: 20px; font-weight: bold; color: var(--azul); line-height: 24px; margin-bottom: 47px; }
 	/* :SegundaSessaoHome */	
 	
 	/* TerceiraSessaoHome: */
-		.TerceiraSessaoHome article { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; }
+		.TerceiraSessaoHome { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; }
 		.TerceiraSessaoHome img { max-width: 100%; width: 100%; height: 100%; }
 	/* :TerceiraSessaoHome */
 
 	/* QuartaSessaoHome: */
-		.QuartaSessaoHome article { background-image: url('../images/Home_QuartaSessao.png'); width: 100%; height: 100%; }
+		.QuartaSessaoHome { background-image: url('../images/Home_QuartaSessao.png'); background-size: cover; }
 		.QuartaSessaoHome p { font-size: 13px; font-weight: bolder; line-height: 46px; position: absolute; left: 27px; top: 29px; color: var(--cinzaescuro); }
+		.QuartaSessaoHome a { display: block; width: 100%; height: 100%; }
 	/* :QuartaSessaoHome */
 /* :Página Home */
 
 /* Boxes: */
+	.BoxMenor { background: var(--cinza) }
 	.BoxMenor article { background: var(--cinza); display: grid; grid-template-columns: 348px auto; align-items: center; padding: 36px 0; }
 	.BoxMenor h3 { font-size: 20px; line-height: 23px; font-weight: bold; color: var(--azul); text-transform: uppercase; text-align: center; }
 	.BoxMenor p { font-size: 15px; line-height: 23px; color: var(--principal); font-weight: 500;}
 
 	.BoxMaior article { background: var(--cinzaescuro); display: grid; grid-template-columns: 50% 50%; align-items: center; justify-items: center; padding: 68px 0; }
-	.BoxMaior h3 { font-size: 32px; line-height: 36px; font-weight: bold; color: var(--azul); margin-left: 85px;  }
+	.BoxMaior h3 { font-size: 32px; line-height: 36px; font-weight: bold; color: var(--azul);  }
 	.BoxMaior p { font-size: 18px; line-height: 24px; color: var(--principal); font-weight: 400; }
 	.BoxMaior p.link { font-size: 14px; line-height: 17px; color: var(--laranja); font-weight: 500; margin-top: 23px;  }
 	.BoxMaior p.link a { font-size: 14px; line-height: 17px; color: var(--laranja); text-decoration: underline; font-weight: 300 }
@@ -117,12 +119,14 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 
 /* Página Logo */
 	.Logo {}
+	.Logo .BoxMenor { background: var(--cinza) }
 	.Logo .BoxMenor article { background: var(--cinza); display: grid; grid-template-columns: 348px auto; align-items: center; padding: 36px 0; }
 	.Logo .BoxMenor h3 { font-size: 20px; line-height: 23px; font-weight: bold; color: var(--azul); text-transform: uppercase; text-align: center; }
 	.Logo .BoxMenor p { font-size: 15px; line-height: 23px; color: var(--principal); }
 
-	.Logo .BoxMaior article { background: var(--cinzaescuro); display: grid; grid-template-columns: 50% 50%; align-items: center; justify-items: center; padding: 68px 0; }
-	.Logo .BoxMaior h3 { font-size: 32px; line-height: 36px; font-weight: bold; color: var(--azul); margin-left: 85px;  }
+	.Logo .BoxMaior { background: var(--cinzaescuro);  }
+	.Logo .BoxMaior article { display: grid; grid-template-columns: 50% 50%; align-items: center; justify-items: center; padding: 68px 0; }
+	.Logo .BoxMaior h3 { font-size: 32px; line-height: 36px; font-weight: bold; color: var(--azul); }
 	.Logo .BoxMaior p { font-size: 18px; line-height: 24px; color: var(--principal); font-weight: 400; }
 	.Logo .BoxMaior p.link { font-size: 14px; line-height: 17px; color: var(--laranja); font-weight: 500; margin-top: 23px;  }
 	.Logo .BoxMaior p.link a { font-size: 14px; line-height: 17px; color: var(--laranja); text-decoration: underline; font-weight: 300 }
@@ -245,8 +249,8 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	/* :GrafismosSegundaSessao */
 
 	/* GrafismosTerceiraSessao: */
-		.GrafismosTerceiraSessao .wrapper { padding-top: 112px; padding-bottom: 144px; display: grid; grid-template-columns: 20% 20% 20% 20% 20%; justify-items: center; background: var(--cinzaescuro); color: var(--principal) }
-		.GrafismosTerceiraSessao .wrapper img { max-width: 100%; }		
+		.GrafismosTerceiraSessao .wrapper { padding-top: 112px; padding-bottom: 144px; display: grid; grid-template-columns: 20% 20% 20% 20% 20%; background: var(--cinzaescuro); color: var(--principal) }
+		.GrafismosTerceiraSessao .wrapper img { max-width: 100%; width: 100%; }		
 		.GrafismosTerceiraSessao .wrapper div p:first-of-type { font-size: 17px; line-height: 22px; color: var(--azul); margin-top: 44px; margin-bottom: 15px; margin-left: 30px }
 		.GrafismosTerceiraSessao .wrapper div p:last-of-type { font-size: 14px; line-height: 16px; margin-left: 30px; }
 	/* :GrafismosTerceiraSessao */
@@ -256,6 +260,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.SliderGrafismos .slick-slide { height: auto; }
 		.SliderGrafismos .slick-dots li button:before { width: 12px; height: 12px; border: 0 }
 		.SliderGrafismos .slick-dots li.slick-active button:before { background-color: var(--laranja) }
+
 		/* Fazer interacao das arrows mudarem de cor */
 /* :Página Grafismos */
 
@@ -284,8 +289,9 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 
 	/* CoresQuartaSessao: */
 		.QuartaSessaoCores { color: var(--cinzaescuro) }
-		.QuartaSessaoCores article { display: grid; grid-template-columns: 50% 50%; padding-top: 104px; padding-bottom: 86px; padding-left: var(--margin); align-items: center; }
+		.QuartaSessaoCores { display: grid; grid-template-columns: 50% 50%; padding-top: 104px; padding-bottom: 86px; padding-left: var(--margin); align-items: center; }
 		.QuartaSessaoCores h2 { font-size: 49px; line-height: 51px; font-weight: 900; text-transform: uppercase; }
+		.QuartaSessaoCores img { margin: auto; }
 	/* :CoresQuartaSessao */
 
 	/* CoresQuintaSessao: */

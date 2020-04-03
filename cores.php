@@ -37,7 +37,7 @@
         </section>
 
         <section class="TerceiraSessaoCores">
-            <article>
+            <!-- <article> -->
                 <div class="wrapper">
                     <div class="Box1">
                         <div class="TituloCor">
@@ -82,11 +82,11 @@
                         </div>
                     </div>
                 </div>                
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="QuartaSessaoCores">
-            <article>
+            <!-- <article> -->
                 <h2>
                     Cada cor em<br>
                     uma dose.<br>
@@ -104,12 +104,12 @@
                     As cores UX são restritas e são para uso exclusivo em interfaces digitais pois<br> 
                     atendem os padrões técnicos de acessibilidade.
                 </p>
-            </article>
+            <!-- </article> -->
         </section>
 
 
         <section class="QuintaSessaoCores">
-            <article>                
+            <!-- <article> -->
                 <div class="wrapper">
                     <div class="esq">
                         <div class="esq-cima">
@@ -330,12 +330,12 @@
                     </div>
 
                 </div>
-            </article>
+            <!-- </article> -->
         </section>
 
 
         <section class="SextaSessaoCores">
-            <article>
+            <!-- <article> -->
                 <p>Onde não usar as cores ux</p>
                 <div class ="wrapper">
                     <div>
@@ -358,7 +358,7 @@
                         </p>
                     </div>                 
                 </div>
-            </article>
+            <!-- </article> -->
         </section>
     
         <?php include 'assets/footer.php'; ?>

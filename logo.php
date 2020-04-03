@@ -48,7 +48,7 @@
         </section>
 
         <section class="SegundaSessaoLogo fullscreen-bg">
-            <article>
+            <!-- <article> -->
                 <div class="wrapper">
                     <div class="esq">
                         <h6>Área de proteção</h6>
@@ -75,7 +75,7 @@
                         </p>
                     </div>
                 </div>
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -89,76 +89,71 @@
             </article>
         </section>
 
-        <section class="TerceiraSessaoLogo ">
-            <article>
-                <div class="wrapper">
-                    <div class="esq">
-                        <div class="SliderLogotipoCor ">
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_01.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_02.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_03.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_04.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_05.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_06.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_07.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_08.png"/>                    
-                            </div>
+        <section class="TerceiraSessaoLogo ">            
+            <div class="wrapper">
+                <div class="esq">
+                    <div class="SliderLogotipoCor ">
+                        <div>
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_01.png"/>                    
                         </div>
-                        <?php include('linkdownload.php'); ?>
+                        <div>
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_02.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_03.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_04.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_05.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_06.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_07.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_08.png"/>                    
+                        </div>
                     </div>
-                    <div class="dir">
-
+                    <?php include('linkdownload.php'); ?>
+                </div>
+                <div class="dir">
+                    <div>
                         <div>
-                            <div>
-                                <p>
-                                    Área de<br> proteção
-                                </p>
-                                <p>
-                                    A área de segurança<br> é igual a altura da<br> letra “P” do logo. 
-                                </p>
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_Direita_Cima.png"/>
-                            </div>
+                            <p>
+                                Área de<br> proteção
+                            </p>
+                            <p>
+                                A área de segurança<br> é igual a altura da<br> letra “P” do logo. 
+                            </p>
                         </div>
-
                         <div>
-                            <div>
-                                <p>
-                                    Redução<br> 
-                                    máxima
-                                </p>
-                                <p>
-                                    Impressos:<br>
-                                    X=10mm<br><br>
-  
-                                    Digital:<br>
-                                    X=70px  
-                                </p>
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_TerceiraSessao_Direita_Baixo.png"/>
-                            </div>
-                        </div>                       
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_Direita_Cima.png"/>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>
+                                Redução<br> 
+                                máxima
+                            </p>
+                            <p>
+                                Impressos:<br>
+                                X=10mm<br><br>
 
+                                Digital:<br>
+                                X=70px  
+                            </p>
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_TerceiraSessao_Direita_Baixo.png"/>
+                        </div>
                     </div>
                 </div>
-            </article>
+            </div>            
         </section>
 
         <section class="BoxMenor">
@@ -173,76 +168,71 @@
             </article>
         </section>
 
-        <section class="QuartaSessaoLogo">
-            <article>
-                <div class="wrapper">
-                    <div class="esq">
-                        <div class="SliderLogotipoCor ">
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_01.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_02.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_03.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_04.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_05.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_06.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_07.png"/>                    
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_08.png"/>                    
-                            </div>
+        <section class="QuartaSessaoLogo">            
+            <div class="wrapper">
+                <div class="esq">
+                    <div class="SliderLogotipoCor ">
+                        <div>
+                            <img src="<? echo $images ?>Logo_QuartaSessao_01.png"/>                    
                         </div>
-                        <?php include('linkdownload.php'); ?>
+                        <div>
+                            <img src="<? echo $images ?>Logo_QuartaSessao_02.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_QuartaSessao_03.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_QuartaSessao_04.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_QuartaSessao_05.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_QuartaSessao_06.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_QuartaSessao_07.png"/>                    
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_QuartaSessao_08.png"/>                    
+                        </div>
                     </div>
-                    <div class="dir">
-
+                    <?php include('linkdownload.php'); ?>
+                </div>
+                <div class="dir">
+                    <div>
                         <div>
-                            <div>
-                                <p>
-                                    Área de<br> proteção
-                                </p>
-                                <p>
-                                    A área de segurança<br> é igual a altura da<br> letra “P” do logo. 
-                                </p>
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_Direita_Cima.png"/>
-                            </div>
+                            <p>
+                                Área de<br> proteção
+                            </p>
+                            <p>
+                                A área de segurança<br> é igual a altura da<br> letra “P” do logo. 
+                            </p>
                         </div>
-
                         <div>
-                            <div>
-                                <p>
-                                    Redução<br> 
-                                    máxima
-                                </p>
-                                <p>
-                                    Impressos:<br>
-                                    X=8mm<br><br>
-  
-                                    Digital:<br>
-                                    X=40px  
-                                </p>
-                            </div>
-                            <div>
-                                <img src="<? echo $images ?>Logo_QuartaSessao_Direita_Baixo.png"/>
-                            </div>
-                        </div>                       
+                            <img src="<? echo $images ?>Logo_QuartaSessao_Direita_Cima.png"/>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>
+                                Redução<br> 
+                                máxima
+                            </p>
+                            <p>
+                                Impressos:<br>
+                                X=8mm<br><br>
 
+                                Digital:<br>
+                                X=40px  
+                            </p>
+                        </div>
+                        <div>
+                            <img src="<? echo $images ?>Logo_QuartaSessao_Direita_Baixo.png"/>
+                        </div>
                     </div>
                 </div>
-            </article>
+            </div>            
         </section>
 
         <section class="BoxMaior">
@@ -278,7 +268,7 @@
         </section>  
 
         <section class="SextaSessaoLogo">
-            <article>
+            <!-- <article> -->
                 <p>Não Fazemos</p>
                 <div class ="wrapper">
                     <div>
@@ -327,7 +317,7 @@
                         </p>
                     </div>                    
                 </div>
-            </article>
+            <!-- </article> -->
         </section>
 
     

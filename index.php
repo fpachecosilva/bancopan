@@ -34,7 +34,7 @@
 		</section>
 
 		<section class="SegundaSessaoHome">
-			<article>
+			<div class="teste">
 				<div class="wrapper">
 					<h2>
 						Existimos para 
@@ -81,11 +81,11 @@
 						</div>
 					</div>
 				</div>
-			</article>
+			</div>
 		</section>
 
 		<section class="TerceiraSessaoHome">
-			<article>
+			<!-- <article> -->
 				<a href="<? echo $Logo ?>">
 					<img src="<? echo $images ?>Home_TerceiraSessao_01.png" />
 				</a>
@@ -110,16 +110,14 @@
 				<a href="<? echo $Identidade ?>">
 					<img src="<? echo $images ?>Home_TerceiraSessao_08.png" />
 				</a>
-			</article>
+			<!-- </article> -->
 		</section>
 
-		<section class="QuartaSessaoHome">
-			<article>
-				<a href="<? echo $Inspiracoes ?>">
-					<p>INSPIRAÇÕES</p>
-					<img class="fullscreen-bg" src="<? echo $images ?>Home_QuartaSessao.png" />
-				</a>
-			</article>
+		<section class="QuartaSessaoHome fullscreen-bg">			
+			<a href="<? echo $Inspiracoes ?>">
+				<p>INSPIRAÇÕES</p>
+				<!-- <img class="fullscreen-bg" src="<? echo $images ?>Home_QuartaSessao.png" /> -->
+			</a>			
 		</section>
 
         

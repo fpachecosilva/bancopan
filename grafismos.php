@@ -29,7 +29,7 @@
         </section>
 
         <section class="GrafismosSegundaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="wrapper">
                     <div>
                         <img src="<? echo $images ?>Grafismos_SegundaSessao_01.png"/>
@@ -56,7 +56,7 @@
                         </p>
                     </div>                    
                 </div>
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -70,7 +70,7 @@
         </section>
 
         <section class="GrafismosTerceiraSessao">
-            <article>
+            <!-- <article> -->
                 <div class="wrapper">
                     <div>
                         <img src="<? echo $images ?>Grafismos_TerceiraSessao_01.png"/>
@@ -112,7 +112,7 @@
                         </p>
                     </div>  
                 </div>
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -132,7 +132,7 @@
         </section>
 
         <section class="GrafismosQuartaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="SliderGrafismos">
                     <img src="<? echo $images ?>Grafismos_QuartaSessao_01.png"/>
                     <img src="<? echo $images ?>Grafismos_QuartaSessao_02.png"/>
@@ -141,7 +141,7 @@
                     <img src="<? echo $images ?>Grafismos_QuartaSessao_05.png"/>
                 </div>
                 <?php include('linkdownload.php'); ?>
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -161,7 +161,7 @@
         </section>
 
         <section class="GrafismosQuintaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="SliderGrafismos">
                     <img src="<? echo $images ?>Grafismos_QuintaSessao_01.png"/>
                     <img src="<? echo $images ?>Grafismos_QuintaSessao_02.png"/>
@@ -170,7 +170,7 @@
                     <img src="<? echo $images ?>Grafismos_QuintaSessao_05.png"/>
                 </div>
                 <?php include('linkdownload.php'); ?>
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -186,7 +186,7 @@
         </section>
 
         <section class="GrafismosSextaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="BoxGridImagens">
                     <div>
                         <img src="<? echo $images ?>Grafismos_SextaSessao_01.png"/>
@@ -212,11 +212,11 @@
                         </p>
                     </div>
                 </div>                
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="GrafismosSetimaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="BoxNaoFazemos">
                     <div>
                         <div class="Titulo">
@@ -254,7 +254,7 @@
                         </div>
                     </div>
                 </div>                
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -274,7 +274,7 @@
         </section>
 
         <section class="GrafismosOitavaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="SliderGrafismos">
                     <img src="<? echo $images ?>Grafismos_OitavaSessao_01.png"/>
                     <img src="<? echo $images ?>Grafismos_OitavaSessao_02.png"/>
@@ -283,11 +283,11 @@
                     <img src="<? echo $images ?>Grafismos_OitavaSessao_05.png"/>
                 </div>
                 <?php include('linkdownload.php'); ?>
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="GrafismosNonaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="BoxNaoFazemos">
                     <div>
                         <div class="Titulo">
@@ -332,7 +332,7 @@
                         </div>
                     </div>
                 </div>                
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -352,7 +352,7 @@
         </section>
 
         <section class="GrafismosDecimaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="SliderGrafismos">
                     <img src="<? echo $images ?>Grafismos_DecimaSessao_01.png"/>
                     <img src="<? echo $images ?>Grafismos_DecimaSessao_02.png"/>
@@ -361,7 +361,7 @@
                     <img src="<? echo $images ?>Grafismos_DecimaSessao_05.png"/>
                 </div>
                 <?php include('linkdownload.php'); ?>
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -377,7 +377,7 @@
         </section>
 
         <section class="GrafismosDecimaPrimeiraSessao">
-            <article>
+            <!-- <article> -->
                 <div class="BoxGridImagens">
                     <div>
                         <img src="<? echo $images ?>Grafismos_DecimaPrimeiraSessao_01.png"/>
@@ -399,11 +399,11 @@
                         <p>Interagindo com imagens de objetos</p>
                     </div>
                 </div>                
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="GrafismosDecimaSegundaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="BoxNaoFazemos">
                     <div>
                         <div class="Titulo">
@@ -439,7 +439,7 @@
                         </div>                        
                     </div>
                 </div>                
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -458,13 +458,13 @@
         </section>
 
         <section class="GrafismosDecimaTerceiraSessao">
-            <article>
+            <!-- <article> -->
                 <div class="SliderGrafismos">
                     <img src="<? echo $images ?>Grafismos_DecimaTerceiraSessao_01.png"/>
                     <img src="<? echo $images ?>Grafismos_DecimaTerceiraSessao_02.png"/>                    
                 </div>
                 <?php include('linkdownload.php'); ?>
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -480,7 +480,7 @@
         </section>
 
         <section class="GrafismosDecimaQuartaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="BoxGridImagens">
                     <div>
                         <img src="<? echo $images ?>Grafismos_DecimaQuartaSessao_01.png"/>
@@ -511,11 +511,11 @@
                         </p>
                     </div>                    
                 </div>                
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="GrafismosDecimaQuintaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="BoxNaoFazemos">
                     <div>
                         <div class="Titulo">
@@ -552,7 +552,7 @@
                         </div>                        
                     </div>
                 </div>                
-            </article>
+            <!-- </article> -->
         </section>
 
         <section class="BoxMenor">
@@ -567,7 +567,7 @@
         </section>
 
         <section class="GrafismosDecimaSextaSessao">
-            <article>
+            <!-- <article> -->
                 <div class="BoxNaoFazemos">
                     <div>
                         <div class="Titulo">
@@ -599,7 +599,7 @@
                         </div>                        
                     </div>
                 </div>                
-            </article>
+            <!-- </article> -->
         </section>
 
         <?php include 'assets/footer.php'; ?>

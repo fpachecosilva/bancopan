@@ -110,12 +110,12 @@ jQuery(document).ready(function() {
 		pauseOnFocus: false,
 		adaptiveHeight: true
 	});
-
+	
 	$('.SliderGrafismos').slick({
 		dots: true,
 		arrows: true,
 		prevArrow: '<div class="slick-prev"></div>',
-      	nextArrow: '<div class="slick-next"></div>',
+		nextArrow: '<div class="slick-next"></div>',
 		speed: 400,
 		infinite: true,
 		fade: true,
@@ -125,7 +125,7 @@ jQuery(document).ready(function() {
 		autoplay: false,
 		pauseOnHover: false,
 		pauseOnFocus: false,
-		adaptiveHeight: false
+		adaptiveHeight: true
 	});
 
 	
