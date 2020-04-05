@@ -56,7 +56,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 
 	.Download::before { padding-left: 30px; position: relative; display: block; float: right; margin-top: -50px; margin-right: var(--margin); height: 26px; z-index: 20; color: var(--cinzaescuro); content: ''; background-image: url(../images/downloadbranco.svg); background-repeat: no-repeat; font-size: 10px; }
 	.Download.Cinza::before { padding-left: 30px; position: relative; display: block; float: right; margin-top: -50px; margin-right: var(--margin); height: 26px; z-index: 20; color: var(--cinzaescuro); content: ''; background-image: url(../images/downloadcinza.svg); background-repeat: no-repeat; font-size: 10px; }
-	
+		
 	.Download.ComTexto::before { margin-right:25px; margin-bottom: 23px; margin-top: 0; padding-right: 43px; background-position: right; display: flex; align-items: center; position: relative; content: "Baixe aqui o pacote de grafismo"; color: var(--principal); font-size: 14px; }
 	.Download.ComTexto { position: absolute; bottom: 0; right: 0; }
 
@@ -95,6 +95,9 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	/* TerceiraSessaoHome: */
 		.TerceiraSessaoHome { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; }
 		.TerceiraSessaoHome img { max-width: 100%; width: 100%; height: 100%; }
+		.TerceiraSessaoHome p { margin-left: 25px; margin-top: 20px; font-size: 13px; font-weight: 800; color: var(--principal); position: absolute; width: auto; height: auto; }
+		.TerceiraSessaoHome a:nth-of-type(1) p { color: var(--cinzaescuro) }
+		.TerceiraSessaoHome a:nth-of-type(7) p { color: var(--cinzaescuro) }
 	/* :TerceiraSessaoHome */
 
 	/* QuartaSessaoHome: */
@@ -183,8 +186,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.SegundaSessaoLogo .dir { background: var(--secundaria); }
 		.SegundaSessaoLogo .dir p { position: absolute; bottom: 25px; margin-left: 23px; }
 		.SegundaSessaoLogo .dir h6 { color: var(--cinza); position: absolute; top: 32px; margin-left: 31px; }
-	/* SegundaSessaoLogo: */
-	
+	/* SegundaSessaoLogo: */	
 	
 	/* TerceiraSessaoLogo: */		
 		.TerceiraSessaoLogo .SliderLogotipoCor div:nth-of-type(7) {background: url('../images/Logo_QuartaSessao_bg_menor.png'); background-repeat: no-repeat; background-size: cover; }
@@ -279,12 +281,12 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	/* CoresTerceiraSessao: */
 		.TerceiraSessaoCores { text-transform: uppercase; font-weight: bold; color: var(--principal); }
 		.TerceiraSessaoCores .wrapper { display: grid; grid-template-columns: 33.33% 33.33% 33.33%; }
-		.TerceiraSessaoCores .TituloCor p { font-size: 26px; line-height: 27px; margin-bottom: 330px; }
+		.TerceiraSessaoCores .TituloCor p { font-size: 26px; line-height: 27px; margin-bottom: 338px; }
 		.TerceiraSessaoCores .DescCor p { font-size: 14px; line-height: 15px; }
 			
-		.TerceiraSessaoCores .Box1 { background: var(--cinza); padding: 33px 0 37px 52px }
+		.TerceiraSessaoCores .Box1 { background: var(--cinza); padding: 35px 0 37px 52px }
 		.TerceiraSessaoCores .Box2 { background: var(--azul); padding: 33px 0 37px 52px }
-		.TerceiraSessaoCores .Box3 { background: var(--laranja); padding: 33px 0 37px 52px }
+		.TerceiraSessaoCores .Box3 { background: var(--laranja); padding: 35px 0 37px 52px }
 	/* :CoresTerceiraSessao */	
 
 	/* CoresQuartaSessao: */
@@ -295,7 +297,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	/* :CoresQuartaSessao */
 
 	/* CoresQuintaSessao: */
-		.QuintaSessaoCores {} 
+		.QuintaSessaoCores {}
 		.QuintaSessaoCores .wrapper { display: grid; grid-template-columns: 50% 50%; padding-top: 40px; padding-bottom: 80px; }
 		
 		.QuintaSessaoCores .boxes div { height: 38px; width: 100%; display: block; font-size: 11px; font-weight: 700; }
@@ -356,8 +358,20 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		
 		.QuintaSessaoCores .esq-cima { display: grid; grid-template-columns: 167px 167px 167px; grid-column-gap: 7px; margin-bottom: 50px; }
 		.QuintaSessaoCores .esq p:first-child { font-size: 14px; line-height: 15px; font-weight: bold; margin-bottom: 20px; }
-
+		.QuintaSessaoCores .dir p:first-child { font-size: 14px; line-height: 15px; font-weight: bold; margin-bottom: 20px; }
 		.QuintaSessaoCores .esq-baixo { display: grid; grid-template-columns: 167px 167px 167px; grid-column-gap: 7px; }
+
+		.QuintaSessaoCores .dir .wrapper-boxes { display: grid; grid-template-rows: auto auto; margin-left: 147px; margin-top: 73px; }
+		
+		.QuintaSessaoCores .dir .box1 img { float: left; }
+		.QuintaSessaoCores .dir .box1 img:last-child { float: left; margin-left: 60px; }
+
+		.QuintaSessaoCores .dir .box2 { width: 337px; height: 449px; border: 1px solid #49A5E1; border-radius: 6px; margin-top: 35px; font-size: 11px; font-weight: 700; }
+		.QuintaSessaoCores .dir .box2 span { font-size: 9px; color: #7C7C7C }
+		.QuintaSessaoCores .dir .box2 .divisao { display: grid; grid-template-columns: 20% 60% 20%; padding-left: 35px; padding-right: 32px; padding-top: 33px; display: grid; align-items: center; }
+		.QuintaSessaoCores .dir .box2 .divisao div:nth-of-type(3) { color: red; font-weight: 900; }
+		.QuintaSessaoCores .dir .box2 .divisao4 { color: #00CC88!important; }
+		.QuintaSessaoCores .dir .box2 .divisao5 { color: #FFC925!important; }
 	/* :CoresQuintaSessao */
 
 	/* CoresSextaSessao: */
@@ -366,5 +380,57 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.SextaSessaoCores p:last-child{ margin-bottom: 50px}
 		.SextaSessaoCores img { margin: auto; margin-bottom: 22px; margin-top: var(--margin) }
 	/* :CoresSextaSessao */
-
 /* Página Cores: */
+
+/* Página Tipografia: */	
+	.Tipografia .BoxMenor h3 { text-align: left; margin-left: 138px; }
+	.Tipografia .BoxMenor article { align-items: baseline; }
+	.Tipografia .BoxMenor h3.laranja { color: var(--laranja) }
+	/* TipografiaPrimeiraSessao: */
+		.PrimeiraSessaoTipografia { background-image: url('../images/Tipografia_PrimeiraSessao_01.png'); }
+		.PrimeiraSessaoTipografia .Download { position: absolute; bottom: 0; right: 0; }		
+	/* :TipografiaPrimeiraSessao */
+
+	/* TipografiaSegundaSessao: */
+		.SegundaSessaoTipografia { color: var(--cinzaescuro); }
+		.SegundaSessaoTipografia h2 { font-size: 14px; font-weight: bold; text-transform: uppercase; margin-top: 27px; margin-left: var(--margin); position: absolute; }
+		.SegundaSessaoTipografia .wrapper { display: grid; grid-template-columns: 50% 50%; grid-template-rows: 100%; font-size: 14px; line-height: 17px; height: 100%; }
+		
+		.SegundaSessaoTipografia .esq-wrapper { text-align: right; display: grid; grid-template-rows: 1fr 1fr 1fr 1fr; height: 100%; box-sizing: border-box; padding-top: 137px; }
+		.SegundaSessaoTipografia .esq-wrapper h3 { color: var(--laranja); font-size: 18; font-weight: bold; margin-bottom: 15px; }
+		.SegundaSessaoTipografia .esq-wrapper > div { display: grid; grid-template-columns: auto auto; align-items: center; justify-content: end; }
+		.SegundaSessaoTipografia .esq-wrapper img { margin: 0 32px }
+
+		.SegundaSessaoTipografia .dir { background: var(--cinzaescuro); color: var(--principal); }
+		.SegundaSessaoTipografia .dir-wrapper { text-align: left; display: grid; grid-template-rows: 1fr 1fr 1fr auto; height: 100%; padding-top: 88px; box-sizing: border-box; }
+		.SegundaSessaoTipografia .dir-wrapper > div { display: grid; grid-template-columns: auto auto; align-items: center; justify-content: start; }
+				
+		.SegundaSessaoTipografia .dir-wrapper > div:nth-child(1) div:first-child { display: flex; align-self: end; margin-bottom: 25px; }
+		.SegundaSessaoTipografia .dir-wrapper > div:nth-child(2) div:first-child { display: flex; align-self: baseline; margin-top: 52px; }
+		.SegundaSessaoTipografia .dir-wrapper > div:nth-child(3) div:first-child { display: flex; align-self: baseline; margin-top: 45px; }
+
+		.SegundaSessaoTipografia .dir-wrapper > div:nth-of-type(1) p { color: var(--azul); font-size: 68px; line-height: 64px; font-weight: 800; }
+		.SegundaSessaoTipografia .dir-wrapper > div:nth-of-type(2) p { font-size: 44px; line-height: 48px; font-weight: 500; }
+		.SegundaSessaoTipografia .dir-wrapper > div:nth-of-type(3) p { font-size: 22px; line-height: 28px; font-weight: 100; }
+		.SegundaSessaoTipografia .dir-wrapper img { margin: 0 36px }
+		.SegundaSessaoTipografia .dir-wrapper .proporcao { display: grid; grid-template-columns: auto auto; align-items: center; margin-left: 365px; color: var(--laranja); margin-bottom: 45px; }
+	/* TipografiaTerceiraSessao: */
+		.TerceiraSessaoTipografia { background: var(--cinzaescuro); text-align: center; color: var(--azul) }
+		.TerceiraSessaoTipografia p { font-size: 120px; padding: 157px 0 }		
+	/* TipografiaTerceiraSessao: */
+
+	/* TipografiaQuartaSessao: */
+		.QuartaSessaoTipografia { background: var(--cinzaescuro); text-align: center; color: var(--laranja) }
+		.QuartaSessaoTipografia p { font-size: 120px; padding: 157px 0; font-weight: bold; }
+	/* TipografiaQuartaSessao: */
+	
+	/* TipografiaQuintaSessao: */
+		.Tipografia .BoxNaoFazemos { background: var(--secundaria); color: var(--cinzaescuro); font-size: 11px; line-height: 14px; }
+		.Tipografia .BoxNaoFazemos p { font-size: 12px; line-height: 15px; font-weight: 500; }
+		.Tipografia .BoxNaoFazemos > div:first-of-type { display: grid; grid-template-rows: auto auto; grid-template-columns: 350px auto; align-items: baseline; padding-top: 48px; padding-bottom: 56px }	
+		.Tipografia .BoxNaoFazemos > div:last-of-type { display: grid; grid-template-columns: 25% 25% 25% 25%; justify-items: center; padding-bottom: 80px; text-align: center; }
+		.Tipografia .BoxNaoFazemos .Titulo p { margin-left: var(--margin); font-weight: bold; font-size: 14px; line-height: 15px; }
+		.Tipografia .BoxNaoFazemos .Desc p { font-size: 14px; line-height: 23px; }
+		.Tipografia .BoxNaoFazemos img { margin: auto; margin-bottom: 30px; max-width: 100%; }
+	/* :TipografiaQuintaSessao */
+/* :Página Tipografia */

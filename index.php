@@ -87,27 +87,35 @@
 		<section class="TerceiraSessaoHome">
 			<!-- <article> -->
 				<a href="<? echo $Logo ?>">
+					<p>LOGO E SÍMBOLO</p>
 					<img src="<? echo $images ?>Home_TerceiraSessao_01.png" />
 				</a>
 				<a href="<? echo $Cores ?>">
+					<p>CORES</p>
 					<img src="<? echo $images ?>Home_TerceiraSessao_02.png" />
 				</a>
 				<a href="<? echo $Tipografia ?>">
+					<p>TIPOGRAFIA</p>
 					<img src="<? echo $images ?>Home_TerceiraSessao_03.png" />
 				</a>
 				<a href="<? echo $Grafismos ?>">
+					<p>GRAFISMOS</p>
 					<img src="<? echo $images ?>Home_TerceiraSessao_04.png" />
 				</a>
 				<a href="<? echo $Icones ?>">
+					<p>ÍCONES</p>
 					<img src="<? echo $images ?>Home_TerceiraSessao_05.png" />
 				</a>
 				<a href="<? echo $Fotografia ?>">
+					<p>FOTOGRAFIA</p>
 					<img src="<? echo $images ?>Home_TerceiraSessao_06.png" />
 				</a>
 				<a href="<? echo $Ilustracoes ?>">
+					<p>ILUSTRAÇÕES</p>
 					<img src="<? echo $images ?>Home_TerceiraSessao_07.png" />
 				</a>
 				<a href="<? echo $Identidade ?>">
+					<p>IDENTIDADE VERBAL</p>
 					<img src="<? echo $images ?>Home_TerceiraSessao_08.png" />
 				</a>
 			<!-- </article> -->

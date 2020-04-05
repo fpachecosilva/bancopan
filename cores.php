@@ -104,7 +104,7 @@
                     As cores UX são restritas e são para uso exclusivo em interfaces digitais pois<br> 
                     atendem os padrões técnicos de acessibilidade.
                 </p>
-            <!-- </article> -->
+            </article>
         </section>
 
 
@@ -321,9 +321,75 @@
                         <p>EXEMPLOS DE USO</p>
                         <div class="wrapper-boxes">
                             <div class="box1">
-
+                                <img src="<? echo $images ?>Cores_QuintaSessao_01.png"/>
+                                <img src="<? echo $images ?>Cores_QuintaSessao_02.png"/>
                             </div>
                             <div class="box2">
+                                <div class="divisao">
+                                    <div>
+                                        <img src="<? echo $images ?>Cores_QuintaSessao_03.png"/>
+                                    </div>
+                                    <div>
+                                        Auto posto Brasil<br>
+                                        <span>a 2 dias</span>
+                                    </div>
+                                    <div>
+                                        R$ 320
+                                    </div>
+                                </div>
+
+                                <div class="divisao">
+                                    <div>
+                                        <img src="<? echo $images ?>Cores_QuintaSessao_04.png"/>
+                                    </div>
+                                    <div>
+                                        Bazar da Ana<br>
+                                        <span>a 7 dias</span>
+                                    </div>
+                                    <div>
+                                        R$ 30
+                                    </div>
+                                </div>
+
+                                <div class="divisao">
+                                    <div>
+                                        <img src="<? echo $images ?>Cores_QuintaSessao_05.png"/>
+                                    </div>
+                                    <div>
+                                        Bifarma<br>
+                                        <span>a 9 dias</span>
+                                    </div>
+                                    <div>
+                                        R$ 212
+                                    </div>
+                                </div>
+
+                                <div class="divisao">
+                                    <div>
+                                        
+                                    </div>
+                                    <div>
+                                        Transferência recebida<br>
+                                        <span>José da Silva</span>
+                                    </div>
+                                    <div class="divisao4">
+                                        R$ 500
+                                    </div>
+                                </div>
+
+                                <div class="divisao">
+                                    <div>
+                                        
+                                    </div>
+                                    <div>
+                                        Boleto a vencer<br>
+                                        <span>Pague até 20/01</span>
+                                    </div>
+                                    <div class="divisao5">
+                                        R$ 150
+                                    </div>
+                                </div>
+
 
                             </div>
                         </div>
