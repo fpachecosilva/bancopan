@@ -129,22 +129,42 @@ jQuery(document).ready(function() {
 	});
 
 	
-	$('.SliderLogotipoCor button').on('click', function(){
+	$('.Logo .SliderLogotipoCor button').on('click', function(){
 		if( $(this).attr('id') == 'slick-slide-control00' || $(this).attr('id') == 'slick-slide-control07' || $(this).attr('id') == 'slick-slide-control10' || $(this).attr('id') == 'slick-slide-control17' || $(this).attr('id') == 'slick-slide-control20' || $(this).attr('id') == 'slick-slide-control27'  ) {
 			
-			$('.texto-circulos p').css('color','var(--cinza)')
-			$('.VerMais').addClass('Cinza');
-			$('.Download').addClass('Cinza');
+			$('.Logo .texto-circulos p').css('color','var(--cinza)')
+			$('.Logo .VerMais').addClass('Cinza');
+			$('.Logo .Download').addClass('Cinza');
 
 		} else {
 
-			$('.texto-circulos p').css('color','var(--principal)')
-			$('.VerMais').removeClass('Cinza');
-			$('.Download').removeClass('Cinza');
+			$('.Logo .texto-circulos p').css('color','var(--principal)')
+			$('.Logo .VerMais').removeClass('Cinza');
+			$('.Logo .Download').removeClass('Cinza');
 		}	
 	})
-	
-	if ( $('.GrafismosQuartaSessao div').hasClass('SliderGrafismos') ) {
-		$('.Download').addClass('ComTexto');
-	}
-	
+
+	$('.Icones .SliderLogotipoCor button').on('click', function(){
+		if( $(this).attr('id') == 'slick-slide-control01' || $(this).attr('id') == 'slick-slide-control02' || $(this).attr('id') == 'slick-slide-control03' || $(this).attr('id') == 'slick-slide-control04' ) {
+			
+			$('.TerceiraSessaoIcones .esq p').css('color','var(--principal')
+
+		} else {
+			
+			$('.TerceiraSessaoIcones .esq p').css('color','var(--cinzaescuro')
+		}	
+	})
+		
+	// Botão Download
+	$('.Cinza').each(function() {
+		$(this).children().find('.Download').addClass('Cinza')
+	})
+
+	$('.ComTexto').each(function() {
+		$(this).children().find('.Download').addClass('ComTexto')
+	})
+
+	// Ícone Ver Mais
+	$('.Cinza').each(function() {
+		$(this).find('.VerMais').addClass('Cinza')
+	})

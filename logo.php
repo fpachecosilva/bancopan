@@ -43,39 +43,39 @@
             <div class="texto-circulos">
                 <p>Clique nas bolinhas para ver as aplicações em outro fundos.</p>
             </div>
-            <?php include('vermais.php'); ?>
-            <?php include('linkdownload.php'); ?>
+            <div class="Cinza">
+                <?php include('vermais.php'); ?>
+                <?php include('linkdownload.php'); ?>
+            </div>
         </section>
 
-        <section class="SegundaSessaoLogo fullscreen-bg">
-            <!-- <article> -->
-                <div class="wrapper">
-                    <div class="esq">
-                        <h6>Área de proteção</h6>
-                        <div class="wrapper-img">
-                            <img src="<? echo $images ?>Logo_SegundaSessao_01.png"/>
-                        </div>
-                        <p>
-                        O logo precisa dessa área de proteção, seja das bordas, seja do texto<br>
-                        ou de qualquer outro elemento. A área de segurança é igual a altura<br>
-                        da letra “P” do logo. 
-                        </p>
+        <section class="SegundaSessaoLogo fullscreen-bg">            
+            <div class="wrapper">
+                <div class="esq">
+                    <h6>Área de proteção</h6>
+                    <div class="wrapper-img">
+                        <img src="<? echo $images ?>Logo_SegundaSessao_01.png"/>
                     </div>
-                    <div class="dir">
-                        <h6>Redução máxima</h6>
-                        <div class="wrapper-img">
-                            <img src="<? echo $images ?>Logo_SegundaSessao_02.png"/>
-                        </div>
-                        <p>
-                        Impressos:<br>
-                        X=10mm<br><br>
-                        
-                        Digital:<br>
-                        X=70px
-                        </p>
-                    </div>
+                    <p>
+                    O logo precisa dessa área de proteção, seja das bordas, seja do texto<br>
+                    ou de qualquer outro elemento. A área de segurança é igual a altura<br>
+                    da letra “P” do logo. 
+                    </p>
                 </div>
-            <!-- </article> -->
+                <div class="dir">
+                    <h6>Redução máxima</h6>
+                    <div class="wrapper-img">
+                        <img src="<? echo $images ?>Logo_SegundaSessao_02.png"/>
+                    </div>
+                    <p>
+                    Impressos:<br>
+                    X=10mm<br><br>
+                    
+                    Digital:<br>
+                    X=70px
+                    </p>
+                </div>
+            </div>            
         </section>
 
         <section class="BoxMenor">
@@ -118,7 +118,9 @@
                             <img src="<? echo $images ?>Logo_TerceiraSessao_08.png"/>                    
                         </div>
                     </div>
-                    <?php include('linkdownload.php'); ?>
+                    <div class="Cinza">
+                        <?php include('linkdownload.php'); ?>
+                    </div>
                 </div>
                 <div class="dir">
                     <div>
@@ -197,7 +199,9 @@
                             <img src="<? echo $images ?>Logo_QuartaSessao_08.png"/>                    
                         </div>
                     </div>
-                    <?php include('linkdownload.php'); ?>
+                    <div class="Cinza">
+                        <?php include('linkdownload.php'); ?>
+                    </div>
                 </div>
                 <div class="dir">
                     <div>
@@ -267,57 +271,55 @@
             </article>
         </section>  
 
-        <section class="SextaSessaoLogo">
-            <!-- <article> -->
-                <p>Não Fazemos</p>
-                <div class ="wrapper">
-                    <div>
-                        <img src="<? echo $images ?>Logo_SextaSessao_01.png"/>
-                        <p>
-                            Nunca distorcer o logo<br>
-                            ou o símbolo.</p>
-                    </div>
-                    <div>
-                        <img src="<? echo $images ?>Logo_SextaSessao_02.png"/>
-                        <p>
-                            Não utilizar a cor Coral,<br> 
-                            ou qualquer outra fora da paleta,<br>
-                            no logo e símbolo.
-                        </p>
-                    </div>
-                    <div>
-                        <img src="<? echo $images ?>Logo_SextaSessao_03.png"/>
-                        <p>
-                            Não adicionar nenhuma<br>
-                            informação ao logo ou símbolo.
-                        </p>
-                    </div>
-                    <div>
-                        <img src="<? echo $images ?>Logo_SextaSessao_04.png"/>
-                        <p>
-                            Não utilizar o logo ou símbolo<br>
-                            em baixa resolução.
-                        </p>
-                    </div>
-                    <div>
-                        <img src="<? echo $images ?>Logo_SextaSessao_05.png"/>
-                        <p>
-                            <strong>APENAS</strong> adicionar o símbolo junto<br>
-                            com o logo se a peça tiver mais de uma<br>
-                            face ex. frente e verso de folder, relatório, etc.<br> 
-                            <strong>NUNCA</strong> colocar os dois juntos em<br>
-                            uma mesma face.
-                        </p>
-                    </div>
-                    <div>
-                        <img src="<? echo $images ?>Logo_SextaSessao_06.png"/>
-                        <p>
-                            Respeitar o uso do logo para que<br>
-                            sempre tenha legibilidade
-                        </p>
-                    </div>                    
+        <section class="SextaSessaoLogo">            
+            <p>Não Fazemos</p>
+            <div class ="wrapper">
+                <div>
+                    <img src="<? echo $images ?>Logo_SextaSessao_01.png"/>
+                    <p>
+                        Nunca distorcer o logo<br>
+                        ou o símbolo.</p>
                 </div>
-            <!-- </article> -->
+                <div>
+                    <img src="<? echo $images ?>Logo_SextaSessao_02.png"/>
+                    <p>
+                        Não utilizar a cor Coral,<br> 
+                        ou qualquer outra fora da paleta,<br>
+                        no logo e símbolo.
+                    </p>
+                </div>
+                <div>
+                    <img src="<? echo $images ?>Logo_SextaSessao_03.png"/>
+                    <p>
+                        Não adicionar nenhuma<br>
+                        informação ao logo ou símbolo.
+                    </p>
+                </div>
+                <div>
+                    <img src="<? echo $images ?>Logo_SextaSessao_04.png"/>
+                    <p>
+                        Não utilizar o logo ou símbolo<br>
+                        em baixa resolução.
+                    </p>
+                </div>
+                <div>
+                    <img src="<? echo $images ?>Logo_SextaSessao_05.png"/>
+                    <p>
+                        <strong>APENAS</strong> adicionar o símbolo junto<br>
+                        com o logo se a peça tiver mais de uma<br>
+                        face ex. frente e verso de folder, relatório, etc.<br> 
+                        <strong>NUNCA</strong> colocar os dois juntos em<br>
+                        uma mesma face.
+                    </p>
+                </div>
+                <div>
+                    <img src="<? echo $images ?>Logo_SextaSessao_06.png"/>
+                    <p>
+                        Respeitar o uso do logo para que<br>
+                        sempre tenha legibilidade
+                    </p>
+                </div>                    
+            </div>            
         </section>
 
     

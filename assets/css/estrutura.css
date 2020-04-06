@@ -54,17 +54,28 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	.VerMais::before { position: absolute; bottom: 25px; padding-left: 30px; display: flex; align-items: center; width: 55px; height: 35px; left: 50%; right: 50%; z-index: 20; color: var(--principal); content: 'ver mais'; background-image: url(../images/vermais.svg); background-repeat: no-repeat; font-size: 10px; }	
 	.VerMais.Cinza::before { position: absolute; bottom: 25px; padding-left: 30px; display: flex; align-items: center; width: 55px; height: 35px; left: 50%; right: 50%; z-index: 20; color: var(--cinzaescuro); content: 'ver mais'; background-image: url(../images/vermaiscinza.svg); background-repeat: no-repeat; font-size: 10px; }	
 
-	.Download::before { padding-left: 30px; position: relative; display: block; float: right; margin-top: -50px; margin-right: var(--margin); height: 26px; z-index: 20; color: var(--cinzaescuro); content: ''; background-image: url(../images/downloadbranco.svg); background-repeat: no-repeat; font-size: 10px; }
+	.Download::before { padding-left: 30px; position: relative; display: block; float: right; margin-top: -50px; margin-right: var(--margin); height: 26px; z-index: 20; color: var(--principal); content: ''; background-image: url(../images/downloadbranco.svg); background-repeat: no-repeat; font-size: 10px; }
 	.Download.Cinza::before { padding-left: 30px; position: relative; display: block; float: right; margin-top: -50px; margin-right: var(--margin); height: 26px; z-index: 20; color: var(--cinzaescuro); content: ''; background-image: url(../images/downloadcinza.svg); background-repeat: no-repeat; font-size: 10px; }
 		
-	.Download.ComTexto::before { margin-right:25px; margin-bottom: 23px; margin-top: 0; padding-right: 43px; background-position: right; display: flex; align-items: center; position: relative; content: "Baixe aqui o pacote de grafismo"; color: var(--principal); font-size: 14px; }
+	.Download.ComTexto::before { margin-right:25px; margin-bottom: 23px; margin-top: 0; padding-right: 43px; background-position: right; display: flex; align-items: center; position: relative; content: "Baixe aqui o pacote de grafismo"; font-size: 14px; }
 	.Download.ComTexto { position: absolute; bottom: 0; right: 0; }
 
 	.slick-prev { background: url(../images/slick-esq-branco.svg); background-repeat: no-repeat; left: 37px; z-index: 30; width: 18px; height: 30px; }
 	.slick-next { background: url(../images/slick-dir-branco.svg); background-repeat: no-repeat; right: 37px; z-index: 30; width: 18px; height: 30px; }
-	
-
 /* :Extras */
+
+/* Boxes: */
+	.BoxMenor { background: var(--cinza) }
+	.BoxMenor article { background: var(--cinza); display: grid; grid-template-columns: 348px auto; align-items: center; padding: 50px 0; }
+	.BoxMenor h3 { font-size: 20px; line-height: 23px; font-weight: bold; color: var(--azul); text-transform: uppercase; text-align: center; }
+	.BoxMenor p { font-size: 15px; line-height: 23px; color: var(--principal); font-weight: 500;}
+
+	.BoxMaior article { background: var(--cinzaescuro); display: grid; grid-template-columns: 50% 50%; align-items: center; justify-items: center; padding: 68px 0; }
+	.BoxMaior h3 { font-size: 32px; line-height: 36px; font-weight: bold; color: var(--azul);  }
+	.BoxMaior p { font-size: 18px; line-height: 24px; color: var(--principal); font-weight: 400; }
+	.BoxMaior p.link { font-size: 14px; line-height: 17px; color: var(--laranja); font-weight: 500; margin-top: 23px;  }
+	.BoxMaior p.link a { font-size: 14px; line-height: 17px; color: var(--laranja); text-decoration: underline; font-weight: 300 }
+/* :Boxes */
 
 /* Página Home: */
 	.Home { color: var(--cinzaescuro); }
@@ -107,18 +118,6 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	/* :QuartaSessaoHome */
 /* :Página Home */
 
-/* Boxes: */
-	.BoxMenor { background: var(--cinza) }
-	.BoxMenor article { background: var(--cinza); display: grid; grid-template-columns: 348px auto; align-items: center; padding: 36px 0; }
-	.BoxMenor h3 { font-size: 20px; line-height: 23px; font-weight: bold; color: var(--azul); text-transform: uppercase; text-align: center; }
-	.BoxMenor p { font-size: 15px; line-height: 23px; color: var(--principal); font-weight: 500;}
-
-	.BoxMaior article { background: var(--cinzaescuro); display: grid; grid-template-columns: 50% 50%; align-items: center; justify-items: center; padding: 68px 0; }
-	.BoxMaior h3 { font-size: 32px; line-height: 36px; font-weight: bold; color: var(--azul);  }
-	.BoxMaior p { font-size: 18px; line-height: 24px; color: var(--principal); font-weight: 400; }
-	.BoxMaior p.link { font-size: 14px; line-height: 17px; color: var(--laranja); font-weight: 500; margin-top: 23px;  }
-	.BoxMaior p.link a { font-size: 14px; line-height: 17px; color: var(--laranja); text-decoration: underline; font-weight: 300 }
-/* :Boxes */
 
 /* Página Logo */
 	.Logo {}
@@ -434,3 +433,73 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.Tipografia .BoxNaoFazemos img { margin: auto; margin-bottom: 30px; max-width: 100%; }
 	/* :TipografiaQuintaSessao */
 /* :Página Tipografia */
+
+/* Página Icones: */
+	.Icones { background: var(--cinzaescuro); }
+	.Icones .BoxMenor h3 { text-align: left; margin-left: 138px; }
+	.Icones .BoxMenor article { align-items: baseline; }	
+
+	.Icones .SliderLogotipoCor div {width: 100%; height: 100%!important; }
+	.Icones .SliderLogotipoCor.slick-dotted { margin-bottom: 0!important; }
+	.Icones .SliderLogotipoCor p {margin-top: 140px;}
+	.Icones .SliderLogotipoCor img { max-width: 100%; }
+	.Icones .SliderLogotipoCor .slick-slide div { display: flex!important; justify-content: center; align-items: center; }
+
+	.Icones .SliderLogotipoCor ul.slick-dots { width: auto; margin-left: var(--margin); margin-bottom: 25px; bottom: 0 }
+	.Icones .SliderLogotipoCor .slick-dots li  { width: 22px; height: 22px; margin: 0px; padding: 5px; }
+	.Icones .SliderLogotipoCor .slick-dots li button:before { width: 22px; height: 22px;  }
+	
+	.Icones .SliderLogotipoCor .slick-dots li:nth-of-type(1) button:before { background: var(--principal); }
+	.Icones .SliderLogotipoCor .slick-dots li:nth-of-type(2) button:before { background: var(--cinzaescuro); border-color: transparent; }
+	.Icones .SliderLogotipoCor .slick-dots li:nth-of-type(3) button:before { background: var(--azul); border-color: transparent; }
+	.Icones .SliderLogotipoCor .slick-dots li:nth-of-type(4) button:before { background: var(--laranja); border-color: transparent; }
+	.Icones .SliderLogotipoCor .slick-dots li:nth-of-type(5) button:before { background: var(--cinza); border-color: transparent;} 
+
+	.Icones .SliderLogotipoCor .slick-dots .slick-active button:before { top: -10px; }	
+	.Icones .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(1) button:before { border: 1px solid var(--cinza) }
+	.Icones .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(2) button:before { border: 1px solid var(--principal) }
+	.Icones .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(3) button:before { border: 1px solid var(--principal) }
+	.Icones .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(4) button:before { border: 1px solid var(--principal) }
+	.Icones .SliderLogotipoCor .slick-dots .slick-active:nth-of-type(5) button:before { border: 1px solid var(--principal) }
+
+	.Icones .SliderLogotipoCor div:nth-of-type(2) {background-color: var(--cinzaescuro);}
+	.Icones .SliderLogotipoCor div:nth-of-type(3) {background-color: var(--azul);}	
+	.Icones .SliderLogotipoCor div:nth-of-type(4) {background-color: var(--laranja);}
+	.Icones .SliderLogotipoCor div:nth-of-type(5) {background-color: var(--cinza);}	
+
+	/* IconesPrimeiraSessao: */
+		.PrimeiraSessaoIcones { color: var(--principal); }
+		.PrimeiraSessaoIcones img { margin-left: -150px; }
+		.PrimeiraSessaoIcones > div:first-child { display: grid; align-items: center; height: 100%; }
+		.PrimeiraSessaoIcones .wrapper { display: grid; grid-template-columns: 877px auto; align-items: end;}
+		.PrimeiraSessaoIcones .wrapper> div:last-child { margin-left: auto; margin-right: auto; }
+		.PrimeiraSessaoIcones h1 { font-size: 47px; line-height: 45px; font-weight: bold; color: var(--azul); margin-bottom: 22px; text-transform: uppercase; }
+		.PrimeiraSessaoIcones p { font-size: 18px; line-height: 22px; }
+	/* :IconesPrimeiraSessao */
+
+	/* IconesSegundaSessao: */
+		.SegundaSessaoIcones { background: var(--cinzaescuro) }
+		.SegundaSessaoIcones img { padding: 150px 0; margin: auto; }
+	/* :IconesSegundaSessao */
+
+	/* IconesTerceiraSessao: */
+		.TerceiraSessaoIcones .SliderLogotipoCor div:nth-of-type(7) {background: url('../images/Logo_QuartaSessao_bg_menor.png'); background-repeat: no-repeat; background-size: cover; }
+		.TerceiraSessaoIcones .wrapper { display: grid; grid-template-columns: 50% 50%; height: 100%; }
+		.TerceiraSessaoIcones .dir { display: grid; align-items: center; justify-content: center; }
+		.TerceiraSessaoIcones .dir p:first-child, .TerceiraSessaoIcones .esq p:first-child { text-transform: uppercase; font-weight: bold; font-size: 14px; line-height: 15px; margin-top: 31px; margin-left: 31px; position: absolute; z-index: 20 }
+		.TerceiraSessaoIcones .Download.ComTexto::before { content: "Baixe o grid de construção"; }
+	/* :IconesTerceiraSessao */
+
+	/* IconesQuartaSessao: */
+		.QuartaSessaoIcones { background: var(--cinzaescuro) }
+		.QuartaSessaoIcones img { padding: 62px; margin: auto; }
+		.QuartaSessaoIcones .Download.ComTexto::before { content: "Baixe o pacote de ícones"; }
+	/* :IconesQuartaSessao */
+
+	/* IconesQuintaSessao: */
+		.QuintaSessaoIcones .wrapper { display: grid; grid-template-columns: auto auto auto auto; align-items: center; justify-items: center; font-size: 12px; line-height: 15px; text-align: center; color: var(--cinzaescuro); background: var(--secundaria); padding-top: 118px;  }
+		.QuintaSessaoIcones p:first-child { text-transform: uppercase; font-size: 14px; font-weight: bold; color: var(--cinzaescuro); margin-left: var(--margin); margin-top: 42px; margin-bottom: 55px; position: absolute; }
+		.QuintaSessaoIcones p:last-child{ margin-bottom: 50px}
+		.QuintaSessaoIcones img { margin: auto; margin-bottom: 22px; }
+	/* :IconesQuintaSessao */
+/* :Página Icones */
