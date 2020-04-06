@@ -236,6 +236,8 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	.Grafismos .BoxNaoFazemos .Desc p { font-size: 14px; line-height: 23px; }
 	.Grafismos .BoxNaoFazemos img { margin-bottom: 30px; max-width: 100%; }
 
+	.Grafismos .SliderGrafismos { height: 100%; }
+
 	/* GrafismosPrimeiraSessao: */
 		.GrafismosPrimeiraSessao { background-image: url('../images/Grafismos_PrimeiraSessao.png'); background-size: cover; background-repeat: no-repeat; }
 		.Grafismos .BoxMenor article { align-items: baseline; }
@@ -503,3 +505,50 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.QuintaSessaoIcones img { margin: auto; margin-bottom: 22px; }
 	/* :IconesQuintaSessao */
 /* :Página Icones */
+
+/* Página Fotografia: */
+	.Fotografia .BoxMenor h3 { text-align: left; }
+	.Fotografia .SliderLogotipoCor img { max-width: 100%; }
+	.Fotografia .slick-slider { margin-bottom: 0; }
+	.Fotografia .slick-dots li button:before { width: 12px; height: 12px; border: 0 }
+	.Fotografia .slick-dots li.slick-active button:before { background-color: var(--azul) }
+	/* FotografiaPrimeiraSessao: */
+		.PrimeiraSessaoFotografia { background-image: url('../images/Fotografia_PrimeiraSessao_01.png'); }
+		.PrimeiraSessaoFotografia h1 { font-size: 174px; font-weight: 800; color: var(--laranja); position: absolute; top: 317px; right: -81px; }
+		.PrimeiraSessaoFotografia p { position: absolute; bottom: 211px; right: 77px; color: var(--principal); font-weight: bold; font-size: 32px; line-height: 33px; }
+	/* :FotografiaPrimeiraSessao */
+	
+	/* FotografiaSegundaSessao: */
+		.SegundaSessaoFotografia { font-size: 18px; line-height: 24px; color: var(--cinzaescuro) }
+		.SegundaSessaoFotografia .wrapper { display: grid; grid-template-columns: 50% 50%; height: 100%; grid-template-rows: 100%; }		
+		.SegundaSessaoFotografia .wrapper-dir { display: grid; grid-template-rows: 50% 50%; height: 100%; }		
+		.SegundaSessaoFotografia .wrapper-dir .dir-cima { display: grid; align-items: center; justify-content: center; background: var(--cinzaescuro); color: var(--azul); font-size: 32px; line-height: 36px; font-weight: bold; }
+		.SegundaSessaoFotografia .wrapper-dir .dir-cima p:first-child { position: absolute; margin-left: 30px; margin-top: 30px; color: var(--principal); font-size: 14px; line-height: 15px; font-weight: bold; text-transform: uppercase; }
+		.SegundaSessaoFotografia .wrapper-dir .dir-baixo { display: grid; align-items: center; justify-content: center; }
+		.SegundaSessaoFotografia .wrapper-dir .dir-baixo p:first-child { position: absolute; margin-left: 30px; margin-top: 30px; color: var(--cinzaescuro); font-size: 14px; line-height: 15px; font-weight: bold; text-transform: uppercase; }
+	/* :FotografiaSegundaSessao */
+
+	/* FotografiaTerceiraSessao: */
+		.TerceiraSessaoFotografia { background-image: url('../images/Fotografia_TerceiraSessao_01.png'); background-size: cover; }
+		.TerceiraSessaoFotografia p { position: absolute; bottom: 158px; right: 47px; color: var(--cinzaescuro); font-weight: bold; font-size: 32px; line-height: 33px; }
+	/* :FotografiaTerceiraSessao */
+
+	/* FotografiaQuartaSessao: */
+		.QuartaSessaoFotografia { font-size: 18px; line-height: 24px; color: var(--cinzaescuro) }	
+		.QuartaSessaoFotografia .wrapper { display: grid; grid-template-columns: 50% 50%; height: 100%; grid-template-rows: 100%; }		
+		.QuartaSessaoFotografia .wrapper-dir { display: grid; grid-template-rows: 50% 50%; height: 100%; }		
+		.QuartaSessaoFotografia .wrapper-dir .dir-cima { display: grid; align-items: center; justify-content: center; background: var(--cinzaescuro); color: var(--azul); font-size: 32px; line-height: 36px; font-weight: bold; }
+		.QuartaSessaoFotografia .wrapper-dir .dir-cima p:first-child { position: absolute; margin-left: 30px; margin-top: 30px; color: var(--principal); font-size: 14px; line-height: 15px; font-weight: bold; text-transform: uppercase; }
+		.QuartaSessaoFotografia .wrapper-dir .dir-baixo { display: grid; align-items: center; justify-content: center; }
+		.QuartaSessaoFotografia .wrapper-dir .dir-baixo p:first-child { position: absolute; margin-left: 30px; margin-top: 30px; color: var(--cinzaescuro); font-size: 14px; line-height: 15px; font-weight: bold; text-transform: uppercase; }
+	/* FotografiaQuartaSessao: */
+
+	/* FotografiaQuintaSessao: */
+		.QuintaSessaoFotografia .wrapper { display: grid; grid-template-columns: auto auto auto auto; align-items: center; justify-items: center; font-size: 12px; line-height: 15px; text-align: center; color: var(--cinzaescuro); background: var(--secundaria); padding-top: 118px;  }
+		.QuintaSessaoFotografia p:first-child { text-transform: uppercase; font-size: 14px; font-weight: bold; color: var(--cinzaescuro); margin-left: var(--margin); margin-top: 42px; margin-bottom: 55px; position: absolute; }
+		.QuintaSessaoFotografia p:last-child{ margin-bottom: 50px}
+		.QuintaSessaoFotografia img { margin: auto; margin-bottom: 22px; }
+	/* :FotografiaQuintaSessao */
+	
+
+/* :Página Fotografia */
