@@ -756,5 +756,22 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.DecimaTerceiraSessaoInspiracoes { background-image: url(../images/Inspiracoes_DecimaTerceiraSessao_01.png); }
 		.DecimaTerceiraSessaoInspiracoes { padding: 42px 26px; box-sizing: border-box; }
 	/* :InspiracoesPrimeiraSessao */
-
 /* :Página Inspiracoes */
+
+/* Página Download: */
+	.PrimeiraSessaoDownload { display: grid; background-image: url('../images/Download_bg.png'); color: var(--principal); font-size: 17px; line-height: 18px; font-weight: 700; }	
+	.Download .wrapper { display: grid; align-items: center; justify-content: center; }
+	.DOwnload .wrapper-divs { }
+	.Download .impressoes { display: grid; grid-template-columns: 65px 161px auto; margin-bottom: 90px; align-items: center; box-sizing: border-box; }
+	.Download .digital { display: grid; grid-template-columns: 65px 161px auto; align-items: center; box-sizing: border-box }
+	.Download .wrapper a { font-size: 13px; font-weight: normal; color: var(--principal); display: grid; width: 153px; height: 43px; border: 2px solid var(--laranja); border-radius: 22px; align-items: center; justify-content: center; }
+	
+	.Download .impressoes div:nth-of-type(2) { padding-left: 33px }
+	.Download .digital div:nth-of-type(2) { padding-left: 33px }
+	.Download .impressoes div:nth-of-type(3) { padding-left: 21px }
+	.Download .digital div:nth-of-type(3) { padding-left: 21px; }
+	.Download .digital div:nth-of-type(3) a { border-color: var(--azul); }
+
+	.Download .fechar { position: absolute; right: 0 }
+	.Download .fechar:before { content:''; width: 21px; height: 21px; position: absolute; background: url('../images/Download_x.svg'); right:0; margin-right: 45px; margin-top: 39px }
+/* :Página Download */
