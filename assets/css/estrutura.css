@@ -730,6 +730,31 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.QuartaSessaoIdentidade ul { }
 		.QuartaSessaoIdentidade li { font-size: 14px; line-height: 32px; }
 		.QuartaSessaoIdentidade li:before { content: ''; float: left; width: 8px; height: 8px; display: block; background: var(--laranja); margin-top: 12px; margin-right: 12px; }
-	/* :IdentidadeQuartaSessao */
-	
+	/* :IdentidadeQuartaSessao */	
 /* :Página Identidade */
+
+/* Página Inspiracoes: */
+	/* InspiracoesPrimeiraSessao: */
+		.PrimeiraSessaoInspiracoes { background-image: url(../images/Home_QuartaSessao.png); }
+		.SegundaSessaoInspiracoes { background-image: url(../images/Inspiracoes_SegundaSessao_01.png); }
+		.TerceiraSessaoInspiracoes { background-image: url(../images/Inspiracoes_TerceiraSessao_01.png); }
+		
+		.QuartaSessaoInspiracoes { display: grid; grid-template-columns: 50% 50%; }
+		.QuartaSessaoInspiracoes img { width: 100%; }
+
+		.QuintaSessaoInspiracoes { background-image: url(../images/Inspiracoes_QuintaSessao_01.png); }
+		
+		.SextaSessaoInspiracoes { display: grid; grid-template-columns: 50% 50%; }
+		.SextaSessaoInspiracoes img { width: 100%; }
+		
+		.SetimaSessaoInspiracoes { background-image: url(../images/Inspiracoes_SetimaSessao_01.png); }
+		.OitavaSessaoInspiracoes { background-image: url(../images/Inspiracoes_OitavaSessao_01.png); }
+		.NonaSessaoInspiracoes { background-image: url(../images/Inspiracoes_NonaSessao_01.png); }
+		.DecimaSessaoInspiracoes { background-image: url(../images/Inspiracoes_DecimaSessao_01.png); }
+		.DecimaPrimeiraSessaoInspiracoes { background-image: url(../images/Inspiracoes_DecimaPrimeiraSessao_01.png); }
+		.DecimaSegundaSessaoInspiracoes { background-image: url(../images/Inspiracoes_DecimaSegundaSessao_01.png); }
+		.DecimaTerceiraSessaoInspiracoes { background-image: url(../images/Inspiracoes_DecimaTerceiraSessao_01.png); }
+		.DecimaTerceiraSessaoInspiracoes { padding: 42px 26px; box-sizing: border-box; }
+	/* :InspiracoesPrimeiraSessao */
+
+/* :Página Inspiracoes */
