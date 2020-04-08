@@ -677,6 +677,59 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.SetimaSessaoIlustracoes p:last-child{ margin-bottom: 50px}
 		.SetimaSessaoIlustracoes img { margin: auto; margin-bottom: 22px; }
 	/* :IlustracoesSetimaSessao */
-
-
 /* Página Ilustracoes: */
+
+/* Página Identidade: */
+	/* IdentidadePrimeiraSessao: */
+		.PrimeiraSessaoIdentidade img { position: absolute; margin-top: -94px; margin-left: var(--margin); }
+		.PrimeiraSessaoIdentidade h1 {  position: absolute; bottom: 129px; right: 84px; font-size: 93px; font-weight: bold; line-height: 82px; color: #e4e4e4; text-transform: uppercase; }			
+	/* IdentidadePrimeiraSessao: */
+
+	/* IdentidadeSegundaSessao: */
+		.SegundaSessaoIdentidade .wrapper { display: grid; grid-template-columns: 1fr 1fr 1fr; }
+		.SegundaSessaoIdentidade .wrapper .box { color: var(--principal); }
+		.SegundaSessaoIdentidade .wrapper img { width: 100%; }
+		.SegundaSessaoIdentidade .wrapper-textos { width: 100%; }
+		.SegundaSessaoIdentidade .wrapper .box p.titulo { font-size: 36px; line-height: 56px; font-weight: 800; margin-bottom: -122px; position: relative; text-align: center; margin-top: 66px; }
+		.SegundaSessaoIdentidade .wrapper .box p:last-child { font-size:18px; line-height: 26px; margin-bottom: 86px; margin-left: 46px; position: absolute; bottom:0 }
+		.SegundaSessaoIdentidade .wrapper .box1 p.titulo { color: var(--azul); }
+		.SegundaSessaoIdentidade .wrapper .box2 p.titulo { color: var(--laranja) }
+		.SegundaSessaoIdentidade .wrapper .box3 p.titulo { color: var(--principal) }
+	/* :IdentidadeSegundaSessao */
+
+	/* IdentidadeTerceiraSessao: */
+		.TerceiraSessaoIdentidade .wrapper { padding-top: 146px; padding-left: 138px; }
+		.TerceiraSessaoIdentidade .wrapper:last-child { padding-bottom: 146px; }
+		.TerceiraSessaoIdentidade .wrapper-divs { display: grid; grid-template-columns: 50% 50%; }
+
+		.TerceiraSessaoIdentidade h3 { font-size: 64; font-weight: 800; margin-bottom: 90px; }
+		.TerceiraSessaoIdentidade .wrapper:nth-of-type(1) h3 { color: var(--azul); }
+		.TerceiraSessaoIdentidade .wrapper:nth-of-type(2) h3 { color: var(--laranja); }
+		.TerceiraSessaoIdentidade .wrapper:nth-of-type(3) h3 { color: var(--cinzaescuro); }
+
+		.TerceiraSessaoIdentidade h6 { font-size: 24; font-weight: bold; margin-bottom: 25px; }
+		.TerceiraSessaoIdentidade .wrapper:nth-of-type(1) .esq h6 { color: var(--azul); }
+		.TerceiraSessaoIdentidade .wrapper:nth-of-type(2) .esq h6 { color: var(--laranja); }
+		.TerceiraSessaoIdentidade .wrapper:nth-of-type(3) .esq h6 { color: var(--cinzaescuro); }
+		.TerceiraSessaoIdentidade .wrapper .dir h6 { color: #7C7C7C; }
+
+		.TerceiraSessaoIdentidade p { font-size: 14px; line-height: 22px; color: var(--cinzaescuro) }
+		.TerceiraSessaoIdentidade p:last-child { margin-bottom: 0px; }
+
+		.TerceiraSessaoIdentidade ul li { margin-bottom: 30px; }
+		.TerceiraSessaoIdentidade ul li p:before { content: "\2022"; font-weight: bold; width: 10px; float: left; line-height: 1.45; }
+
+		.TerceiraSessaoIdentidade .wrapper:nth-of-type(1) .esq ul li p:before { color: var(--azul) }
+		.TerceiraSessaoIdentidade .wrapper:nth-of-type(2) .esq ul li p:before { color: var(--laranja) }
+		.TerceiraSessaoIdentidade .wrapper:nth-of-type(3) .esq ul li p:before { color: var(--cinzaescuro) }
+	/* :IdentidadeTerceiraSessao */
+
+	/* IdentidadeQuartaSessao: */
+		.QuartaSessaoIdentidade { color: var(--principal); background: var(--cinzaescuro); padding: 42px 137px }
+		.QuartaSessaoIdentidade p.titulo { font-size: 24px; line-height: 28px; font-weight: bold; color: var(--laranja); text-transform: uppercase; margin-bottom: 12px }
+		.QuartaSessaoIdentidade ul { }
+		.QuartaSessaoIdentidade li { font-size: 14px; line-height: 32px; }
+		.QuartaSessaoIdentidade li:before { content: ''; float: left; width: 8px; height: 8px; display: block; background: var(--laranja); margin-top: 12px; margin-right: 12px; }
+	/* :IdentidadeQuartaSessao */
+	
+/* :Página Identidade */
