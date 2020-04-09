@@ -14,6 +14,7 @@
     </head>
 
     <body class="Grafismos">
+    <?php include 'assets/header.php'; ?>
         <section class="GrafismosPrimeiraSessao fullscreen-bg">
             <?php include('vermais.php'); ?>
         </section>

@@ -16,6 +16,7 @@
 		<meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
 	</head>
 	<body class="Home">
+		<?php include 'assets/header.php'; ?>
 		<section class="PrimeiraSessaoHome fullscreen-bg">
 			<img class="Logo" src="<? echo $images ?>Home_PrimeiraSessao_Logo.png" />
 			<div class="div-esq">

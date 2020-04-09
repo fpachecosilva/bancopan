@@ -13,6 +13,7 @@
         <meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
         </head>
     <body class="Logo">
+        <?php include 'assets/header.php'; ?>
         <section class="PrimeiraSessaoLogo fullscreen-bg">
             <div class="SliderLogotipoCor fullscreen-bg">
                 <div>

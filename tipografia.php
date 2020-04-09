@@ -13,6 +13,7 @@
         <meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
         </head>
     <body class="Tipografia">
+    <?php include 'assets/header.php'; ?>
         <section class="PrimeiraSessaoTipografia fullscreen-bg">
             <?php include('vermais.php'); ?>
             <?php include('linkdownload.php'); ?>

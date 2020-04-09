@@ -23,6 +23,7 @@
 	$Identidade = 'identidade.php';
 	$Inspiracoes = 'inspiracoes.php';
 	$Download = 'download.php';
+	$Contato = 'contato.php';
 		
 		
 ?>

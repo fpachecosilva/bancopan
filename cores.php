@@ -13,6 +13,7 @@
         <meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
         </head>
     <body class="Cores">
+    <?php include 'assets/header.php'; ?>
         <section class="PrimeiraSessaoCores fullscreen-bg">
             <?php include('vermais.php'); ?>
         </section>

@@ -13,6 +13,7 @@
         <meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
         </head>
     <body class="Fotografia">
+    <?php include 'assets/header.php'; ?>
         <section class="PrimeiraSessaoFotografia fullscreen-bg">
             <p>
                 Para enfrentar<br>

@@ -797,3 +797,74 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	form input { height: 40px; width: 100%; padding-left: 12px; }
 	form textarea { height: 155px; width: 100%; padding-left: 12px; padding-top: 12px }
 /* Página Contato: */
+
+
+
+
+
+
+
+
+/* Header Desktop: */
+header {position: fixed; height: 80px;}
+header article {padding: var(--margin);}
+
+
+.headerFixo {background: var(--cinza);}
+
+#AbrirFecharMenu {position: absolute; width: 37px; height: 26px; margin-right: 66px; margin-top: 60px }
+#BotaoHome { position: absolute; margin-right: 141px; right: 0; z-index: 30; }
+
+
+	#AbrirFecharMenu:hover span {animation-duration: 1s; animation-iteration-count: infinite;}
+	#AbrirFecharMenu:hover #Cima, #AbrirFecharMenu:hover #Baixo {-webkit-animation-name: menuCimaBaixo; animation-name: menuCimaBaixo;} 
+	#AbrirFecharMenu:hover #Meio {-webkit-animation-name: menuMeio; animation-name: menuMeio;} 
+
+	nav {right: -100%; min-width: 430px; width: 40%; box-shadow: 0 0 20px rgba(0,0,0,0.4);}
+	nav a:hover {margin-left: 5px !important;}
+
+	.Aberto {}
+	
+	nav h4 { color: var(--azul) }
+	
+		nav h4, #MenuPrincipal li a {padding-left: 90px !important;}
+
+		#MenuPrincipal {padding-top: 35px; display: block;}
+		#MenuPrincipal > li > a {font-size: 15px; line-height: 31px; font-weight: bold;}
+		#MenuPrincipal ul {background: var(--sobretomCinza); display: none; padding: 20px 0; margin: 10px 0;}
+
+		#MenuPrincipal ul a {font-weight: 600; font-size: 0.8rem; padding: 3px 0;}
+
+.DropDown > a:before {content: ''; margin-top: 7px; margin-left: 210px; transform: rotate(135deg); border-color: #FFF; box-sizing: border-box; width: 8px; height: 8px; border-top: 2px solid; border-right: 2px solid; position: absolute;}
+.DropDown > a.aberto:before {transform: rotate(315deg); margin-top: 10px;}
+
+/* :Header Desktop */
+
+/* Header: */
+header {width: 100%; z-index: 2; background: transparent; top: 0; z-index: 100;}
+header article {position: relative; z-index: 10;}
+header a {font-size: 1.1rem;}
+
+#LogoHeader .elements {fill: var(--tokyo);}
+
+#AbrirFecharMenu {display: block; right: 0; top: 0; z-index: 30;}
+	#AbrirFecharMenu span {height: 2px; display: block; background: var(--tokyo); position: absolute; top: 50%; left: 50%;}
+
+	nav {background: var(--tokyo); position: fixed; top: 0; height: 100%; display: block; z-index: 2;}
+
+		nav h4 {text-transform: uppercase; font-weight: bold; font-size: 19px; line-height: 31px; }
+		nav a {display: block; color: #FFF;}
+
+		nav.Aberto {right: 0; background: var(--cinzaescuro); text-transform: uppercase; padding-top: 218px }
+		#LogoHeader { position: absolute; left: 69px; top: 52px }
+
+	#EscMenu {position: fixed; width: 100%; height: 100%; display: none; top: 0; left: 0; z-index: 2;}
+
+		.Aberto #Cima {-ms-transform: rotate(315deg); -webkit-transform: rotate(315deg); transform: rotate(315deg);}
+		.Aberto #Meio {-ms-transform: rotate(225deg); -webkit-transform: rotate(225deg); transform: rotate(225deg);}
+		.Aberto #Baixo {-ms-transform: rotate(315deg); -webkit-transform: rotate(315deg); transform: rotate(315deg);}
+
+		#AbrirFecharMenu.Aberto {background-color: transparent;}
+		#AbrirFecharMenu.Aberto span {margin-top: 0px !important; background: #FFF !important; width: 30px !important; margin-left: -15px !important;}
+		#AbrirFecharMenu.Aberto:hover span {animation: none !important;}
+/* :Header */

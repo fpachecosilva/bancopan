@@ -13,6 +13,7 @@
         <meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
         </head>
     <body class="Inspiracoes">
+    <?php include 'assets/header.php'; ?>
         <section class="PrimeiraSessaoInspiracoes fullscreen-bg"></section>
         <section class="SegundaSessaoInspiracoes fullscreen-bg"></section>
         <section class="TerceiraSessaoInspiracoes fullscreen-bg"></section>
