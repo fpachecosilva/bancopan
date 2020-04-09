@@ -77,6 +77,13 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	.BoxMaior p.link a { font-size: 14px; line-height: 17px; color: var(--laranja); text-decoration: underline; font-weight: 300 }
 /* :Boxes */
 
+
+@media only screen and (max-width: 1000px) {
+	body { display: none!important; }
+	html:before { content: "Sistema adaptado apenas para desktop!"; display: grid; align-items: center; justify-content: center; width: 100%; height: 100%; font-size: 1.4em; text-transform: uppercase; font-family: montserrat; background: var(--azul); color: var(--principal); padding: 50px; box-sizing: border-box; }
+  }
+
+
 /* Página Home: */
 	.Home { color: var(--cinzaescuro); }
 	/* PrimeiraSessaoHome: */	
@@ -760,18 +767,33 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 
 /* Página Download: */
 	.PrimeiraSessaoDownload { display: grid; background-image: url('../images/Download_bg.png'); color: var(--principal); font-size: 17px; line-height: 18px; font-weight: 700; }	
-	.Download .wrapper { display: grid; align-items: center; justify-content: center; }
-	.DOwnload .wrapper-divs { }
+	.Download .wrapper { display: grid; align-items: center; justify-content: center; }	
 	.Download .impressoes { display: grid; grid-template-columns: 65px 161px auto; margin-bottom: 90px; align-items: center; box-sizing: border-box; }
 	.Download .digital { display: grid; grid-template-columns: 65px 161px auto; align-items: center; box-sizing: border-box }
-	.Download .wrapper a { font-size: 13px; font-weight: normal; color: var(--principal); display: grid; width: 153px; height: 43px; border: 2px solid var(--laranja); border-radius: 22px; align-items: center; justify-content: center; }
-	
+	.Download .wrapper a { font-size: 13px; font-weight: normal; color: var(--principal); display: grid; width: 153px; height: 43px; border: 2px solid var(--laranja); border-radius: 22px; align-items: center; justify-content: center; }	
 	.Download .impressoes div:nth-of-type(2) { padding-left: 33px }
 	.Download .digital div:nth-of-type(2) { padding-left: 33px }
 	.Download .impressoes div:nth-of-type(3) { padding-left: 21px }
 	.Download .digital div:nth-of-type(3) { padding-left: 21px; }
 	.Download .digital div:nth-of-type(3) a { border-color: var(--azul); }
-
 	.Download .fechar { position: absolute; right: 0 }
 	.Download .fechar:before { content:''; width: 21px; height: 21px; position: absolute; background: url('../images/Download_x.svg'); right:0; margin-right: 45px; margin-top: 39px }
 /* :Página Download */
+
+/* :Página Contato */
+	.PrimeiraSessaoContato .wrapper { display: grid; grid-template-columns: 264px auto; width: 100%; height: 100%; }
+	.PrimeiraSessaoContato .esq { background-image: url('../images/form.png'); background-repeat: no-repeat; background-size: cover; }
+	.PrimeiraSessaoContato .dir { display: grid; align-items: flex-end; padding-left: 104px; padding-right: 104px; padding-bottom: 62px; color: var(--cinzaescuro) }
+	.PrimeiraSessaoContato h1 { font-weight: bold; color: var(--laranja); font-size: 47px; line-height: 45px; text-transform: uppercase; margin-bottom: 60px }
+
+	form { max-width: 724px; box-sizing: border-box; }
+	
+	form > div:first-of-type { display: grid; grid-template-columns: 1fr 1fr; column-gap: 12px; }
+	form > div { margin-bottom: 27px; }
+	form > div:last-of-type { margin-bottom: 10px; }
+
+	form a { float: right; width: 92px; height: 40px; background: var(--laranja); display: grid; align-items: center; justify-content: center; color: var(--principal); font-size: 12px; font-weight: bold; text-transform: uppercase; }
+	form label { position: absolute; margin-top: -4px; margin-left: 7px; padding: 0 5px; background: #fff; font-size: 10px; text-transform: uppercase; font-weight: bold; }
+	form input { height: 40px; width: 100%; padding-left: 12px; }
+	form textarea { height: 155px; width: 100%; padding-left: 12px; padding-top: 12px }
+/* Página Contato: */
