@@ -13,6 +13,9 @@
         <meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
         </head>
     <body class="Contato">
+        <div class="Laranja">
+            <?php include 'assets/header.php'; ?>
+        </div>
         <section class="PrimeiraSessaoContato fullscreen-bg">
             <div class="wrapper">
                 <div class="esq"></div>

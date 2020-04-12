@@ -14,12 +14,12 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		--cinzaescuro: #414141;
 		
 		--margin: 52px;		
-		--tempo: 400ms;
+		--tempo: 400ms;		
 	}
 /* Variaveis: */
 
 /* Efeitos de transição: */
-	a, span, nav, header, header, .slick-dots li button:before {-webkit-transition: all var(--tempo); -moz-transition: all var(--tempo); -ms-transition: all var(--tempo); -o-transition: all var(--tempo); transition: all var(--tempo);}
+	a, span, nav, header, .slick-dots li button:before, #MenuDownload li:first-of-type:before, .Aberto {-webkit-transition: all var(--tempo); -moz-transition: all var(--tempo); -ms-transition: all var(--tempo); -o-transition: all var(--tempo); transition: all var(--tempo);}
 /* :Efeitos de transição */
 
 /* Animações */
@@ -269,9 +269,14 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.SliderGrafismos.slick-slider { margin-bottom: 0; }
 		.SliderGrafismos .slick-slide { height: auto; }
 		.SliderGrafismos .slick-dots li button:before { width: 12px; height: 12px; border: 0 }
-		.SliderGrafismos .slick-dots li.slick-active button:before { background-color: var(--laranja) }
+		.SliderGrafismos .slick-dots li.slick-active button:before { background-color: var(--laranja)!important }
 
-		/* Fazer interacao das arrows mudarem de cor */
+		.SliderGrafismos .slick-dots li button.Cinza:before { background-color: var(--cinza) }
+		.SliderGrafismos .slick-next.Laranja { background-image: url('../images/slick-dir-laranja.svg'); }
+		.SliderGrafismos .slick-prev.Laranja { background-image: url('../images/slick-esq-laranja.svg'); }
+
+		.SliderGrafismos .slick-prev.Cinza { background-image: url('../images/slick-esq-cinza.svg'); }
+		.SliderGrafismos .slick-next.Cinza { background-image: url('../images/slick-dir-cinza.svg'); }
 /* :Página Grafismos */
 
 /* :Página Cores */
@@ -801,70 +806,47 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 
 
 
-
-
-
-
-/* Header Desktop: */
-header {position: fixed; height: 80px;}
-header article {padding: var(--margin);}
-
-
-.headerFixo {background: var(--cinza);}
-
-#AbrirFecharMenu {position: absolute; width: 37px; height: 26px; margin-right: 66px; margin-top: 60px }
-#BotaoHome { position: absolute; margin-right: 141px; right: 0; z-index: 30; }
-
-
-	#AbrirFecharMenu:hover span {animation-duration: 1s; animation-iteration-count: infinite;}
-	#AbrirFecharMenu:hover #Cima, #AbrirFecharMenu:hover #Baixo {-webkit-animation-name: menuCimaBaixo; animation-name: menuCimaBaixo;} 
-	#AbrirFecharMenu:hover #Meio {-webkit-animation-name: menuMeio; animation-name: menuMeio;} 
-
-	nav {right: -100%; min-width: 430px; width: 40%; box-shadow: 0 0 20px rgba(0,0,0,0.4);}
-	nav a:hover {margin-left: 5px !important;}
-
-	.Aberto {}
-	
-	nav h4 { color: var(--azul) }
-	
-		nav h4, #MenuPrincipal li a {padding-left: 90px !important;}
-
-		#MenuPrincipal {padding-top: 35px; display: block;}
-		#MenuPrincipal > li > a {font-size: 15px; line-height: 31px; font-weight: bold;}
-		#MenuPrincipal ul {background: var(--sobretomCinza); display: none; padding: 20px 0; margin: 10px 0;}
-
-		#MenuPrincipal ul a {font-weight: 600; font-size: 0.8rem; padding: 3px 0;}
-
-.DropDown > a:before {content: ''; margin-top: 7px; margin-left: 210px; transform: rotate(135deg); border-color: #FFF; box-sizing: border-box; width: 8px; height: 8px; border-top: 2px solid; border-right: 2px solid; position: absolute;}
-.DropDown > a.aberto:before {transform: rotate(315deg); margin-top: 10px;}
-
-/* :Header Desktop */
-
-/* Header: */
-header {width: 100%; z-index: 2; background: transparent; top: 0; z-index: 100;}
-header article {position: relative; z-index: 10;}
-header a {font-size: 1.1rem;}
-
-#LogoHeader .elements {fill: var(--tokyo);}
-
-#AbrirFecharMenu {display: block; right: 0; top: 0; z-index: 30;}
-	#AbrirFecharMenu span {height: 2px; display: block; background: var(--tokyo); position: absolute; top: 50%; left: 50%;}
-
-	nav {background: var(--tokyo); position: fixed; top: 0; height: 100%; display: block; z-index: 2;}
-
-		nav h4 {text-transform: uppercase; font-weight: bold; font-size: 19px; line-height: 31px; }
-		nav a {display: block; color: #FFF;}
-
-		nav.Aberto {right: 0; background: var(--cinzaescuro); text-transform: uppercase; padding-top: 218px }
-		#LogoHeader { position: absolute; left: 69px; top: 52px }
-
+/* Menu: */
+	header {position: fixed; width: 100%; z-index: 2; background: transparent; top: 0; z-index: 100;}
+	#LogoHeader { position: absolute; left: 69px; top: 52px }
+		
 	#EscMenu {position: fixed; width: 100%; height: 100%; display: none; top: 0; left: 0; z-index: 2;}
 
-		.Aberto #Cima {-ms-transform: rotate(315deg); -webkit-transform: rotate(315deg); transform: rotate(315deg);}
-		.Aberto #Meio {-ms-transform: rotate(225deg); -webkit-transform: rotate(225deg); transform: rotate(225deg);}
-		.Aberto #Baixo {-ms-transform: rotate(315deg); -webkit-transform: rotate(315deg); transform: rotate(315deg);}
+	#BotaoHome { position: absolute; margin-right: 141px; margin-top: 52px; right: 0; z-index: 30; background-image: url('../images/menu-home-azul.svg'); width: 45px; height: 37px; display: block; background-repeat: no-repeat; }
+	#BotaoHome.Aberto { position: absolute; margin-right: 141px; margin-top: 52px; right: 0; z-index: 30; background-image: url('../images/menu-home-azul.svg')!important; width: 45px; height: 37px; display: block;background-repeat: no-repeat; }
+	#BotaoHome.Laranja { position: absolute; margin-right: 141px; margin-top: 52px; right: 0; z-index: 30; background-image: url('../images/menu-home-laranja.svg'); width: 45px; height: 37px; display: block;background-repeat: no-repeat; }
+	#BotaoHome.Branco { position: absolute; margin-right: 141px; margin-top: 52px; right: 0; z-index: 30; background-image: url('../images/menu-header-home-branco.svg'); width: 45px; height: 37px; display: block;background-repeat: no-repeat; }
+		
+	#AbrirFecharMenu { position: absolute; width: 37px; height: 28px; margin-right: 66px; margin-top: 60px; display: block; right: 0; top: 0; z-index: 30; background-image: url('../images/menu-azul.svg'); background-repeat: no-repeat; }
+	#AbrirFecharMenu.Aberto { position: absolute; width: 37px; height: 28px; margin-right: 66px; margin-top: 60px; display: block; right: 0; top: 0; z-index: 30; background-image: url('../images/menu-azul.svg')!important; background-repeat: no-repeat; }
+	#AbrirFecharMenu.Laranja {position: absolute; width: 37px; height: 28px; margin-right: 66px; margin-top: 60px; display: block; right: 0; top: 0; z-index: 30; background-image: url('../images/menu-laranja.svg'); background-repeat: no-repeat; }
+	#AbrirFecharMenu.Branco {position: absolute; width: 37px; height: 28px; margin-right: 66px; margin-top: 60px; display: block; right: 0; top: 0; z-index: 30; background-image: url('../images/menu-header-branco.svg'); background-repeat: no-repeat; }
 
-		#AbrirFecharMenu.Aberto {background-color: transparent;}
-		#AbrirFecharMenu.Aberto span {margin-top: 0px !important; background: #FFF !important; width: 30px !important; margin-left: -15px !important;}
-		#AbrirFecharMenu.Aberto:hover span {animation: none !important;}
-/* :Header */
+	nav {right: -100%; min-width: 430px; width: 40%; box-shadow: 0 0 20px rgba(0,0,0,0.4); background-color: var(--cinzaescuro); }
+	nav a:hover { margin-left: 5px !important; }
+	
+	nav {position: fixed; top: 0; height: 100%; display: block; z-index: 2; }
+	nav h4 {text-transform: uppercase; font-weight: bold; font-size: 19px; line-height: 31px; color: var(--azul) }
+	nav a {display: block; color: #FFF;}
+	nav.Aberto {right: 0; background: var(--cinzaescuro); text-transform: uppercase; }
+	
+	nav h4, #MenuPrincipal li a {padding-left: 69px !important;}
+
+	nav .duvidas { font-size: 12px; line-height: 31px; text-transform: uppercase; font-weight: bold; color: var(--azul); margin-left: 69px; margin-top: 59px; }
+	nav .duvidas:hover { margin-left: 74px!important }
+
+	.Aberto:first-of-type a:first-child { margin-top: 218px }
+
+	#MenuPrincipal { padding-top: 56px; display: block; }
+	#MenuPrincipal > li > a { font-size: 15px; line-height: 31px; font-weight: bold;  margin-top: initial}	
+
+	#MenuDownload { padding-top: 56px; padding-left: 69px; display: block; }
+	#MenuDownload li { padding-left: 23px}
+	#MenuDownload li:first-of-type { padding-left: 0; }
+	#MenuDownload li:first-of-type:before { content: ''; background-image: url(../images/download-seta-baixo.svg); display: block; width: 12px; height: 10px; background-repeat: no-repeat; position: absolute; margin-top: 17px; margin-left: 113px; }	
+	#MenuDownload li:hover:before { margin-left: 118px;}	
+	#MenuDownload li:first-of-type a { color: var(--azul) }	
+	#MenuDownload a { margin-top: 0; font-size: 15px; line-height: 31px; font-weight: bold; }
+  	
+	.Aberto { -webkit-transition: all 800ms; -moz-transition: all 800ms; -ms-transition: all 800ms; -o-transition: all 800ms; transition: all 800ms; }
+/* :Menu */

@@ -2,10 +2,10 @@
 	$empresa = 'Banco PAN';
 	
 	// localhost
-	$url = 'http://localhost/bancopan/';
+	// $url = 'http://localhost/bancopan/';
 	
 	// online
-	// $url = 'http://previewbsagency.com.br/bancopan/';
+	$url = 'http://previewbsagency.com.br/bancopan/';
 	
 	$images = $url.'assets/images/';	
 	$Tags = '';
@@ -24,6 +24,9 @@
 	$Inspiracoes = 'inspiracoes.php';
 	$Download = 'download.php';
 	$Contato = 'contato.php';
-		
+
+	//Links Download
+	$Papelaria = 'link papelaria';
+	$TemplatePPT = 'link template ppt';	
 		
 ?>

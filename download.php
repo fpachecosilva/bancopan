@@ -12,13 +12,13 @@
         <meta name="description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO SEO GOOGLE -->
         <meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
         </head>
-    <body class="Download">
+    <body class="Download">        
         <section class="PrimeiraSessaoDownload fullscreen-bg">
             <div class="wrapper">
                 <div class="wrapper-divs">
                     <div class="impressoes">
                         <div>
-                            <img src="<? echo $images ?>Download_impressoes.svg"/>
+                            <img src="<?php echo $images ?>Download_impressoes.svg"/>
                         </div>
                         <div>
                             <p>
@@ -27,7 +27,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#">Download</a>
+                            <?php echo '<a href="'. $Papelaria .'">Download</a>'?>
                         </div>
                     </div>
                     <div class="digital">
@@ -41,18 +41,15 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#">Download</a>
+                            <?php echo '<a href="'. $TemplatePPT .'">Download</a>'?>
                         </div>
                     </div>
                 </div>
             </div>
-            <a class="fechar" href="#"></a>
-        </section>    
-    
-    
-    
-    
-    
+
+            <?php echo '<a class="fechar" href="'. $Home .'"></a>'; ?>
+            
+        </section>  
     
     
     <?php include 'assets/footer.php'; ?>
