@@ -20,7 +20,7 @@
 				echo '<li><a href="'. $Icones .'">Ícones</a></li>';
 				echo '<li><a href="'. $Fotografia .'">Fotografia</a></li>';
 				echo '<li><a href="'. $Ilustracoes .'">Ilustrações</a></li>';
-				echo '<li><a href="'. $Identidade .'">Identidade</a></li>';
+				echo '<li><a href="'. $Identidade .'">Identidade Verbal</a></li>';
 				echo '<li><a href="'. $Inspiracoes .'">Inspirações</a></li>';
 				?>
 			</ul>
@@ -34,3 +34,6 @@
 			<a class="duvidas" href="<? echo $Contato ?>">DÚVIDAS?</a>
 		</nav>
 	</header>
+
+
+	

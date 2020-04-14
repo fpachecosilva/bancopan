@@ -6,14 +6,16 @@
 
     $urlPagina = $Cores;
 ?>
-    <title><? echo $tituloPagina ?></title>
-    <?php include 'assets/head.php'; ?>
+    <title><? echo $tituloPagina ?></title>    
+        <?php include 'assets/head.php'; ?>    
         <meta property="og:title" content="<? echo $tituloPagina ?>" />
         <meta name="description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO SEO GOOGLE -->
         <meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
         </head>
     <body class="Cores">
-    <?php include 'assets/header.php'; ?>
+    <div class="Branco">
+        <?php include 'assets/header.php'; ?>
+    </div>
         <section class="PrimeiraSessaoCores fullscreen-bg">
             <?php include('vermais.php'); ?>
         </section>

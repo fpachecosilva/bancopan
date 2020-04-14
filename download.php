@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <?php echo '<a class="fechar" href="'. $Home .'"></a>'; ?>
+            <?php echo '<a class="fechar" href="'. $_SERVER['HTTP_REFERER'] .'"></a>'; ?>
             
         </section>  
     

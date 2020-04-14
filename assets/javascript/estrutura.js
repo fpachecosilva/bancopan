@@ -233,3 +233,32 @@ jQuery(document).ready(function() {
 				$(this).children().find('#BotaoHome').addClass('Branco')
 			})
 	// Menu
+
+
+	// Esconder / Mostrar VerMais ao scrollar	
+	$(window).scroll(function(){		
+		$('.VerMais').hide('slow')
+
+		if( window.pageYOffset == 0 ) {
+			$('.VerMais').show('slow')
+		}
+	})
+	
+
+	// Mudar cor dos ícones de menu em PrimeiraSessaoCores	
+	if( $('body').hasClass('Cores') == true ) {
+
+		$(window).scroll(function(){		
+			var alturaCor = $('.PrimeiraSessaoCores').height()
+	
+			if( window.pageYOffset > alturaCor ) {
+				$('#AbrirFecharMenu').removeClass('Branco')
+				$('#BotaoHome').removeClass('Branco')
+			} else {
+				$('#AbrirFecharMenu').addClass('Branco')
+				$('#BotaoHome').addClass('Branco')
+			}
+		})
+
+	}
+	

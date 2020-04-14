@@ -94,7 +94,7 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 		.PrimeiraSessaoHome p { color: var(--principal); margin-top: 70px; font-size: 18px; line-height: 22px; z-index: 10; position: relative; }
 		.PrimeiraSessaoHome .div-dir { position: absolute; right: 0; top: 0; height: 100vh; }
 		.PrimeiraSessaoHome .div-dir .quadrado { width: 85px; height: 85px; display: block; background: var(--laranja); top: 324px; right: 200px; position: relative; z-index: 10; animation-duration: 0.7s; animation-name: rotacionar; }
-		.PrimeiraSessaoHome .div-dir .triangulobaixo { transform-origin: bottom left; width: 0px; height: 135px; border-left: 583px solid transparent; border-right: 538px solid transparent; border-bottom: 590px solid #707070; position: absolute; top: 212px; right: -315px; animation-name: left-right-corner; animation-duration: 0.7s; }
+		.PrimeiraSessaoHome .div-dir .triangulobaixo { transform-origin: bottom left; width: 0; height: 0; border-left: 583px solid transparent; border-right: 538px solid transparent; border-bottom: 770px solid #707070;	position: absolute;	top: 240px;	right: -381px; animation-name: left-right-corner; animation-duration: 0.7s; }
 		.PrimeiraSessaoHome .div-dir .triangulocima { transform-origin: left; width: 81px; height: 0; border-left: 695px solid transparent; border-top: 703px solid #414141; position: absolute; top: 0; right: -171px; animation-name: left-right; animation-duration: 0.4s;}		
 	/* :PrimeiraSessaoHome */
 		
@@ -112,8 +112,10 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	
 	/* TerceiraSessaoHome: */
 		.TerceiraSessaoHome { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; }
-		.TerceiraSessaoHome img { max-width: 100%; width: 100%; height: 100%; }
-		.TerceiraSessaoHome p { margin-left: 25px; margin-top: 20px; font-size: 13px; font-weight: 800; color: var(--principal); position: absolute; width: auto; height: auto; }
+		.TerceiraSessaoHome img { max-width: 100%; width: 100%; height: 100%; overflow: hidden; -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000); -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000); -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);  -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000); transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000); }
+		.TerceiraSessaoHome img:hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1);	transform: scale(1.1); }
+		.TerceiraSessaoHome p { margin-left: 25px; margin-top: 20px; font-size: 13px; font-weight: 800; color: var(--principal); position: absolute; width: auto; height: auto; z-index: 20; }
+		.TerceiraSessaoHome a { overflow: hidden; }
 		.TerceiraSessaoHome a:nth-of-type(1) p { color: var(--cinzaescuro) }
 		.TerceiraSessaoHome a:nth-of-type(7) p { color: var(--cinzaescuro) }
 	/* :TerceiraSessaoHome */
