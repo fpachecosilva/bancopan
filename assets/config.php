@@ -26,7 +26,13 @@
 	$Contato = 'contato.php';
 
 	//Links Download
-	$Papelaria = 'link papelaria';
-	$TemplatePPT = 'link template ppt';	
+	$GrafismosImpressao = $url.'download/grafismos_impressao.zip';
+	$GrafismosDigital = $url.'download/grafismos_digital.zip';
+
+	$LogosImpressao = $url.'download/logos_impressao.zip';
+	$LogosDigital = $url.'download/logos_digital.zip';
+
+	$IconesImpressao = $url.'download/icones_impressao.zip';
+	$IconesDigital = $url.'download/icones_digital.zip';
 		
 ?>

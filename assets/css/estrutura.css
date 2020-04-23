@@ -830,19 +830,19 @@ body {display: none; font-family: 'Montserrat'; box-sizing: border-box; backgrou
 	nav {position: fixed; top: 0; height: 100%; display: block; z-index: 2; }
 	nav h4 {text-transform: uppercase; font-weight: bold; font-size: 19px; line-height: 31px; color: var(--azul) }
 	nav a {display: block; color: #FFF;}
-	nav.Aberto {right: 0; background: var(--cinzaescuro); text-transform: uppercase; }
+	nav.Aberto {right: 0; background: var(--cinzaescuro); text-transform: uppercase; overflow-y: auto; }
 	
 	nav h4, #MenuPrincipal li a {padding-left: 69px !important;}
 
 	nav .duvidas { font-size: 12px; line-height: 31px; text-transform: uppercase; font-weight: bold; color: var(--azul); margin-left: 69px; margin-top: 59px; }
 	nav .duvidas:hover { margin-left: 74px!important }
 
-	.Aberto:first-of-type a:first-child { margin-top: 218px }
+	.Aberto:first-of-type a:first-child { margin-top: 160px }
 
-	#MenuPrincipal { padding-top: 56px; display: block; }
+	#MenuPrincipal { padding-top: 25px; display: block; }
 	#MenuPrincipal > li > a { font-size: 15px; line-height: 31px; font-weight: bold;  margin-top: initial}	
 
-	#MenuDownload { padding-top: 56px; padding-left: 69px; display: block; }
+	#MenuDownload { padding-top: 25px; padding-left: 69px; display: block; }
 	#MenuDownload li { padding-left: 23px}
 	#MenuDownload li:first-of-type { padding-left: 0; }
 	#MenuDownload li:first-of-type:before { content: ''; background-image: url(../images/download-seta-baixo.svg); display: block; width: 12px; height: 10px; background-repeat: no-repeat; position: absolute; margin-top: 17px; margin-left: 113px; }	

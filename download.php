@@ -5,17 +5,21 @@
     $descricaoCompartilhamento = '';
 
     $urlPagina = $Download;
+    $urlAnterior =  $_SERVER['HTTP_REFERER'];    
+    $nomePagina = explode("/", parse_url($urlAnterior, PHP_URL_PATH));
 ?>
+
     <title><? echo $tituloPagina ?></title>
     <?php include 'assets/head.php'; ?>
         <meta property="og:title" content="<? echo $tituloPagina ?>" />
         <meta name="description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO SEO GOOGLE -->
         <meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
         </head>
-    <body class="Download">        
+    <body class="Download">
         <section class="PrimeiraSessaoDownload fullscreen-bg">
             <div class="wrapper">
                 <div class="wrapper-divs">
+
                     <div class="impressoes">
                         <div>
                             <img src="<?php echo $images ?>Download_impressoes.svg"/>
@@ -27,9 +31,31 @@
                             </p>
                         </div>
                         <div>
-                            <?php echo '<a href="'. $Papelaria .'">Download</a>'?>
+                            
+                            <?php
+
+                                if ( $nomePagina[2] == "logo.php" ) 
+                                {
+                                    echo '<a href="'. $LogosImpressao .'">Download</a>';
+                                }
+                                elseif ( $nomePagina[2] == "grafismos.php" )
+                                {
+                                    echo '<a href="'. $GrafismosImpressao .'">Download</a>';
+                                }
+                                elseif ( $nomePagina[2] == "icones.php" )
+                                {
+                                    echo '<a href="'. $IconesImpressao .'">Download</a>';
+                                } 
+                                else 
+                                {
+                                    echo '<a href="">Download</a>';
+                                }
+
+                            ?>
+
                         </div>
                     </div>
+
                     <div class="digital">
                         <div>
                             <img src="<? echo $images ?>Download_digital.svg"/>
@@ -41,9 +67,31 @@
                             </p>
                         </div>
                         <div>
-                            <?php echo '<a href="'. $TemplatePPT .'">Download</a>'?>
+
+                            <?php
+
+                                if ( $nomePagina[2] == "logo.php" ) 
+                                {
+                                    echo '<a href="'. $LogosDigital .'">Download</a>';
+                                }
+                                elseif ( $nomePagina[2] == "grafismos.php" )
+                                {
+                                    echo '<a href="'. $GrafismosDigital .'">Download</a>';
+                                }
+                                elseif ( $nomePagina[2] == "icones.php" )
+                                {
+                                    echo '<a href="'. $IconesDigital .'">Download</a>';
+                                } 
+                                else 
+                                {
+                                    echo '<a href="">Download</a>';
+                                }
+                                
+                            ?>
+
                         </div>
                     </div>
+                    
                 </div>
             </div>
 

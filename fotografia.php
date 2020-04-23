@@ -15,11 +15,11 @@
     <body class="Fotografia">
     <?php include 'assets/header.php'; ?>
         <section class="PrimeiraSessaoFotografia fullscreen-bg">
-            <p>
+            <!-- <p>
                 Para enfrentar<br>
                 os desafios<br>
                 da vida.
-            </p>
+            </p> -->
             <?php include('vermais.php'); ?>
         </section>
 
@@ -89,10 +89,10 @@
         </section>
 
         <section class="TerceiraSessaoFotografia fullscreen-bg">
-            <p>
+            <!-- <p>
                 Que contam<br>
                 histórias
-            </p>
+            </p> -->
         </section>
 
         <section class="QuartaSessaoFotografia fullscreen-bg">

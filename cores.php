@@ -369,7 +369,7 @@
 
                                 <div class="divisao">
                                     <div>
-                                        
+                                        <img src="<? echo $images ?>Cores_QuintaSessao_06.png"/>
                                     </div>
                                     <div>
                                         Transferência recebida<br>
@@ -382,7 +382,7 @@
 
                                 <div class="divisao">
                                     <div>
-                                        
+                                        <img src="<? echo $images ?>Cores_QuintaSessao_07.png"/>
                                     </div>
                                     <div>
                                         Boleto a vencer<br>
