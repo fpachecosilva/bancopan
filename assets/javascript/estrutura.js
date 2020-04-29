@@ -261,4 +261,15 @@ jQuery(document).ready(function() {
 		})
 
 	}
+
+	// Animar clique na âncora em GrafismosTerceiraSessao
+	$('.GrafismosTerceiraSessao a[href^="#"]').on('click', function(e) {
+		e.preventDefault();
+		var id = $(this).attr('href'),
+				targetOffset = $(id).offset().top;
+				
+		$('html, body').animate({ 
+			scrollTop: targetOffset
+		}, 1200);
+	});
 	

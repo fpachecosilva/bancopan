@@ -73,45 +73,60 @@
         <section class="GrafismosTerceiraSessao">
             <!-- <article> -->
                 <div class="wrapper">
-                    <div>
-                        <img src="<? echo $images ?>Grafismos_TerceiraSessao_01.png"/>
-                        <p>Grafismo 01</p>
-                        <p>
-                            Para comunicação<br>
-                            Institucional
-                        </p>
-                    </div>
-                    <div>
-                        <img src="<? echo $images ?>Grafismos_TerceiraSessao_02.png"/>
-                        <p>Grafismo 02</p>
-                        <p>
-                            Para peças com<br>
-                            mais texto.
-                        </p>
-                    </div>  
-                    <div>
-                        <img src="<? echo $images ?>Grafismos_TerceiraSessao_03.png"/>
-                        <p>Grafismo 03</p>
-                        <p>
-                            Para peças com<br>
-                            pouco texto.
-                        </p>
-                    </div>  
-                    <div>
-                        <img src="<? echo $images ?>Grafismos_TerceiraSessao_04.png"/>
-                        <p>Grafismo 04</p>
-                        <p>
-                            Para peças<br>
-                            sem imagem
-                        </p>
-                    </div>  
-                    <div>
-                        <img src="<? echo $images ?>Grafismos_TerceiraSessao_05.png"/>
-                        <p>Grafismo 05</p>
-                        <p>
-                            Para detalhes
-                        </p>
-                    </div>  
+                    <a href="#Grafismos4">
+                        <div>
+                            <img src="<? echo $images ?>Grafismos_TerceiraSessao_01.png"/>
+                            <p>Grafismo 01</p>
+                            <p>
+                                Para comunicação<br>
+                                Institucional
+                            </p>
+                        </div>
+                    </a>
+                    
+                    <a href="#Grafismos5">
+                        <div>
+                            <img src="<? echo $images ?>Grafismos_TerceiraSessao_02.png"/>
+                            <p>Grafismo 02</p>
+                            <p>
+                                Para peças com<br>
+                                mais texto.
+                            </p>
+                        </div> 
+                    </a>
+
+                    <a href="#Grafismos8">
+                        <div>
+                            <img src="<? echo $images ?>Grafismos_TerceiraSessao_03.png"/>
+                            <p>Grafismo 03</p>
+                            <p>
+                                Para peças com<br>
+                                pouco texto.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="#Grafismos10">
+                        <div>
+                            <img src="<? echo $images ?>Grafismos_TerceiraSessao_04.png"/>
+                            <p>Grafismo 04</p>
+                            <p>
+                                Para peças<br>
+                                sem imagem
+                            </p>
+                        </div> 
+                    </a>
+
+                    <a href="#Grafismos13">
+                        <div>
+                            <img src="<? echo $images ?>Grafismos_TerceiraSessao_05.png"/>
+                            <p>Grafismo 05</p>
+                            <p>
+                                Para detalhes
+                            </p>
+                        </div>
+                    </a>
+
                 </div>
             <!-- </article> -->
         </section>
@@ -132,7 +147,7 @@
             </article>
         </section>
 
-        <section class="GrafismosQuartaSessao">            
+        <section class="GrafismosQuartaSessao" id="Grafismos4">            
             <div class="SliderGrafismos">
                 <img src="<? echo $images ?>Grafismos_QuartaSessao_01.png"/>
                 <img src="<? echo $images ?>Grafismos_QuartaSessao_02.png"/>
@@ -161,7 +176,7 @@
             </article>
         </section>
 
-        <section class="GrafismosQuintaSessao">
+        <section class="GrafismosQuintaSessao" id="Grafismos5">
             
                 <div class="SliderGrafismos">
                     <img src="<? echo $images ?>Grafismos_QuintaSessao_01.png"/>
@@ -271,7 +286,7 @@
             </article>
         </section>
 
-        <section class="GrafismosOitavaSessao">            
+        <section class="GrafismosOitavaSessao" id="Grafismos8">            
             <div class="SliderGrafismos">
                 <img src="<? echo $images ?>Grafismos_OitavaSessao_01.png"/>
                 <img src="<? echo $images ?>Grafismos_OitavaSessao_02.png"/>
@@ -347,7 +362,7 @@
             </article>
         </section>
 
-        <section class="GrafismosDecimaSessao">            
+        <section class="GrafismosDecimaSessao" id="Grafismos10">            
             <div class="SliderGrafismos">
                 <img src="<? echo $images ?>Grafismos_DecimaSessao_01.png"/>
                 <img src="<? echo $images ?>Grafismos_DecimaSessao_02.png"/>
@@ -449,7 +464,7 @@
             </article>
         </section>
 
-        <section class="GrafismosDecimaTerceiraSessao">            
+        <section class="GrafismosDecimaTerceiraSessao" id="Grafismos13">            
             <div class="SliderGrafismos">
                 <img src="<? echo $images ?>Grafismos_DecimaTerceiraSessao_01.png"/>
                 <img src="<? echo $images ?>Grafismos_DecimaTerceiraSessao_02.png"/>                    
